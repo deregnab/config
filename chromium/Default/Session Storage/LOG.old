@@ -1,0 +1,27 @@
+2018/09/20-08:05:47.621 972 Reusing MANIFEST /home/deregnab/.config/chromium/Default/Session Storage/MANIFEST-000001
+2018/09/20-08:05:47.621 972 Recovering log #78
+2018/09/20-08:05:47.621 972 Reusing old log /home/deregnab/.config/chromium/Default/Session Storage/000078.log 
+2018/09/20-08:26:36.591 4160 Level-0 table #82: started
+2018/09/20-08:26:36.593 4160 Level-0 table #82: 20348 bytes OK
+2018/09/20-08:26:36.595 4160 Delete type=0 #78
+2018/09/20-08:41:21.034 4160 Level-0 table #84: started
+2018/09/20-08:41:21.038 4160 Level-0 table #84: 16980 bytes OK
+2018/09/20-08:41:21.039 4160 Delete type=0 #81
+2018/09/20-08:41:21.039 4160 Compacting 4@0 + 1@1 files
+2018/09/20-08:41:21.047 4160 Generated table #85@0: 977 keys, 137826 bytes
+2018/09/20-08:41:21.047 4160 Compacted 4@0 + 1@1 files => 137826 bytes
+2018/09/20-08:41:21.051 4160 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/09/20-08:41:21.051 4160 Delete type=2 #75
+2018/09/20-08:41:21.051 4160 Delete type=2 #84
+2018/09/20-08:41:21.051 4160 Delete type=2 #77
+2018/09/20-08:41:21.052 4160 Delete type=2 #82
+2018/09/20-08:41:21.052 4160 Delete type=2 #79
+2018/09/20-08:57:23.561 4160 Level-0 table #87: started
+2018/09/20-08:57:23.565 4160 Level-0 table #87: 17618 bytes OK
+2018/09/20-08:57:23.567 4160 Delete type=0 #83
+2018/09/20-09:19:54.949 4160 Level-0 table #89: started
+2018/09/20-09:19:54.951 4160 Level-0 table #89: 17469 bytes OK
+2018/09/20-09:19:54.955 4160 Delete type=0 #86
+2018/09/20-10:33:24.925 4160 Level-0 table #91: started
+2018/09/20-10:33:24.930 4160 Level-0 table #91: 15246 bytes OK
+2018/09/20-10:33:24.932 4160 Delete type=0 #88

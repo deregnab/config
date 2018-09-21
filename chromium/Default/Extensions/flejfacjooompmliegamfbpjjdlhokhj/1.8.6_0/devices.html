@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Join</title>
+	<script src="js/base/constants.js"></script>
+	<script src="js/base/dialog/dialog.js"></script>
+	<script src="js/base/extensions.js"></script>
+	<script src="js/base/utilsobject.js"></script>
+	<script src="js/base/utilsdom.js"></script>
+	<script src="js/base/utilsbadge.js"></script>
+	<script src="js/base/utilsdevices.js"></script>
+    <script src="js/base/web.js"></script>
+	<!--<script src="js/base/eventBus.js"></script>-->
+	<script src="js/base/googleDriveManager.js"></script>
+	<script src="utils.js"></script>
+	<script src="js/utilssms.js"></script>
+	<script src="js/devicecommands.js"></script>
+	<script src="js/taskercommands.js"></script>
+	<link rel="import" href="components/device-commands.html" />
+	<link rel="import" href="components/device.html" />
+	<link rel="import" href="components/device-button.html" />
+	<link rel="import" href="components/device-buttons.html" />
+	<link rel="import" href="notifications.html" />
+	<link rel="import" href="components/sms.html" />
+	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+	<link type="text/css" themesheet rel="stylesheet" href="base_styles.css"/>
+	<link type="text/css" themesheet rel="stylesheet" href="global_styles.css"/>
+	<!--<link rel="stylesheet" href="js/emoji/emojionearea.min.css">
+	<script type="text/javascript" src="js/emoji/jquery.min.js"></script>
+	<script type="text/javascript" src="js/emoji/jquery.textcomplete.min.js"></script>
+	<script type="text/javascript" src="js/emoji/emojione.min.js"></script>
+	<script type="text/javascript" src="js/emoji/emojionearea.min.js"></script>-->
+</head>
+<body>
+	<div id="topbar">
+		<img id="usericon" />
+		<div id="topBarText"><b>Check the <a id="optionslink" href="#">options</a> for keyboard shortcuts and more</b></div>
+	</div>
+	<div id="tabscontainer" class="tabselement">
+		<div id="tabs"  class="tabselement">
+			<div id="tab-devices" class="tab waves-effect waves-light"><div class="tabIcon"><p>Devices</p></div></div>
+			<div id="tab-notifications" class="tab waves-effect waves-light"><div class="tabIcon"><p>Notifications</p></div></div>
+			<div id="tab-sms" class="tab waves-effect waves-light"><div class="tabIcon"><p>SMS/Phone</p></div></div>
+		</div>
+		<div id="tools" class="tabselement">
+			<div id="refresh" class="tab waves-effect waves-light"><img class="tabIcon" src="icons/refresh.png" id="topBarRefresh" title="Refresh" /></div>
+			<div id="settings" class="tab"><img class="tabIcon" src="icons/settings.png" id="settings" title="Settings"/></div>
+			<div id="popout" class="tab"><img class="tabIcon" src="icons/popout.png" id="topBarPopout" title="Popout" /></div>
+		</div>
+	</div>
+	<div id="currenttabtitle" class="tabselement"></div>
+	<div id="notifications"></div>
+	<div id="sms">
+		<div id="smstitlecontainer" class="card">
+			<div id="smsback"><img src="icons/back.png"></div><img id="contactpictureconversation" src="icons/contact_white.png" /><div id="smstitle"></div>
+		</div>
+		<div class="fixed-action-btn" id="newsmsbutton">
+			<a class="btn-floating btn-large">
+				<div id="newsmscall">+</div>
+			</a>
+		    <ul>
+		      <li><a class="btn-floating"><div id="newcallbuttonicon"></div></a></li>
+		      <li><a class="btn-floating"><div id="newsmsbuttonicon"></div></a></li>
+		    </ul>
+		</div>
+		<div id="contactfindcontainer" class="input-field col s6">
+					<input placeholder="Search for contact" type="text" class="validate" id="contactfindinput" />
+				</div>
+		<div id="smscontainer"></div>
+		<div id="smssendcontainer" class="input-field col s6">
+			<div id="dropzonemms" class="dropzone hidden"><div class="small">Drop files here</div></div>
+			<div  id="mmsextras" class="hidden">
+				<textarea placeholder="Subject" type="text" class="validate materialize-textarea" id="smssubject"></textarea>
+				<input type="checkbox" id="smsurgent" /><div id="smsurgenttext">Urgent</div>
+			</div>
+			<div id="smsattachment">
+				<svg id="smsattachmentimage" class="waves-effect" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24">
+					<path d="M16.5,6V17.5A4,4 0 0,1 12.5,21.5A4,4 0 0,1 8.5,17.5V5A2.5,2.5 0 0,1 11,2.5A2.5,2.5 0 0,1 13.5,5V15.5A1,1 0 0,1 12.5,16.5A1,1 0 0,1 11.5,15.5V6H10V15.5A2.5,2.5 0 0,0 12.5,18A2.5,2.5 0 0,0 15,15.5V5A4,4 0 0,0 11,1A4,4 0 0,0 7,5V17.5A5.5,5.5 0 0,0 12.5,23A5.5,5.5 0 0,0 18,17.5V6H16.5Z" />
+				</svg>
+				<div id="smsattachmentimagepreview" class="hidden">
+					<img id="smsattachmentimagepreviewimage" />
+					<svg  id="smsattachmentimagepreviewdelete" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+						<g>
+							<path style="fill:#F78F8F;" d="M20,38.5C9.799,38.5,1.5,30.201,1.5,20S9.799,1.5,20,1.5S38.5,9.799,38.5,20S30.201,38.5,20,38.5z"></path>
+							<path style="fill:#C74343;" d="M20,2c9.925,0,18,8.075,18,18s-8.075,18-18,18S2,29.925,2,20S10.075,2,20,2 M20,1
+								C9.507,1,1,9.507,1,20s8.507,19,19,19s19-8.507,19-19S30.493,1,20,1L20,1z"></path>
+						</g>
+						<rect x="18.5" y="10" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 20 48.2843)" style="fill:#FFFFFF;" width="3" height="20"></rect>
+						<rect x="18.5" y="10" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -8.2843 20)" style="fill:#FFFFFF;" width="3" height="20"></rect>
+					</svg>
+				</div>
+				<img id="smsattachmentimageloading" src="/icons/loading.gif" class="hidden" />
+				<div id="smsemoji"  class="waves-effect">😃</div>
+			</div>
+			<textarea placeholder="Send message" type="text" class="validate materialize-textarea" id="smsinput"></textarea>
+			<div id="smssend" class="waves-effect" title="Long-click for Subject">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M2,21L23,12L2,3V10L17,12L2,14V21Z" /></svg>
+			</div>
+		</div>
+	</div>
+	<div id="devices"></div>
+		<div id="dropzonedevices" class="dropzone hidden"><div>Drop files here</div></div>
+		<input type="file" id="uploadfile" style="display:none;" multiple/>
+		<script type="text/javascript" src="materialize/js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	<script src="js/deviceui.js"></script>
+	<script src="devices.js"></script>
+	<script src="notifications.js"></script>
+	<script src="js/sms.js"></script>
+</html>

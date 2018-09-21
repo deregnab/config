@@ -1,0 +1,46 @@
+{
+   "background": {
+      "scripts": [ "libs/classinheritance.js", "tree/js/dboperations.js", "tree/js/treemodel.js", "signaturevalidator.js", "background.js", "backup/background-backup.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon.png",
+      "default_title": "Tabs Outliner"
+   },
+   "commands": {
+      "_execute_browser_action": {
+
+      },
+      "save_close_all_windows": {
+         "description": "Save and Close all open windows"
+      },
+      "save_close_current_tab": {
+         "description": "Save and Close current tab"
+      },
+      "save_close_current_window": {
+         "description": "Save and Close current window"
+      }
+   },
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com https://connect.facebook.net https://apis.google.com https://platform.twitter.com; object-src 'self';",
+   "default_locale": "en",
+   "description": "The Next Generation Session Manager; A Really Working Too Many Open Tabs Solution; And Your Browsing Notebook.",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/favicon.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTFjLkWlVbRsd0qJrg1Wgk/T+XtMulOxKQDm4FVwjTCWbD8qpfnA8xVvGuWhQqzWHmqlRfY3IAqeVJd4/hEQr5ZpXNBa25+GAzjFT/pykj7oVPXArswhJWx/WuTUMqmIIFuoehFBNQ8bbGj6X1DZ5KwbJf7MD4JQYEr6AuK49T5wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "42.0.0.0",
+   "name": "Tabs Outliner",
+   "oauth2": {
+      "client_id": "264571147925-gl2i51b5j91lkd21gojr9jh06kp2gos3.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive.appdata" ]
+   },
+   "offline_enabled": true,
+   "optional_permissions": [ "identity.email", "clipboardRead", "clipboardWrite" ],
+   "options_page": "options.html",
+   "permissions": [ "notifications", "storage", "tabs", "unlimitedStorage", "idle", "chrome://favicon/", "identity" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.134",
+   "web_accessible_resources": [ "*", "tree/js/treeview.js", "activesessionview.js" ]
+}
