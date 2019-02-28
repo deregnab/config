@@ -1,0 +1,54 @@
+2019/02/27-08:24:27.416 456 Reusing MANIFEST /home/deregnab/.config/chromium/Profile 1/Session Storage/MANIFEST-000001
+2019/02/27-08:24:27.416 456 Recovering log #23
+2019/02/27-08:24:27.417 456 Reusing old log /home/deregnab/.config/chromium/Profile 1/Session Storage/000023.log 
+2019/02/27-09:22:50.123 7e0 Level-0 table #28: started
+2019/02/27-09:22:50.141 7e0 Level-0 table #28: 16410 bytes OK
+2019/02/27-09:22:50.149 7e0 Delete type=0 #23
+2019/02/27-10:23:46.317 7e0 Level-0 table #30: started
+2019/02/27-10:23:46.340 7e0 Level-0 table #30: 13481 bytes OK
+2019/02/27-10:23:46.347 7e0 Delete type=0 #27
+2019/02/27-10:35:23.271 7e0 Level-0 table #32: started
+2019/02/27-10:35:23.287 7e0 Level-0 table #32: 9496 bytes OK
+2019/02/27-10:35:23.307 7e0 Delete type=0 #29
+2019/02/27-10:48:23.280 7e0 Level-0 table #34: started
+2019/02/27-10:48:23.295 7e0 Level-0 table #34: 8821 bytes OK
+2019/02/27-10:48:23.308 7e0 Delete type=0 #31
+2019/02/27-10:48:23.308 7e0 Compacting 4@0 + 1@1 files
+2019/02/27-10:48:23.333 7e0 Generated table #35@0: 612 keys, 19996 bytes
+2019/02/27-10:48:23.333 7e0 Compacted 4@0 + 1@1 files => 19996 bytes
+2019/02/27-10:48:23.341 7e0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/02/27-10:48:23.341 7e0 Delete type=2 #34
+2019/02/27-10:48:23.341 7e0 Delete type=2 #30
+2019/02/27-10:48:23.341 7e0 Delete type=2 #32
+2019/02/27-10:48:23.341 7e0 Delete type=2 #25
+2019/02/27-10:48:23.341 7e0 Delete type=2 #28
+2019/02/27-11:00:23.263 7e0 Level-0 table #37: started
+2019/02/27-11:00:23.281 7e0 Level-0 table #37: 8435 bytes OK
+2019/02/27-11:00:23.298 7e0 Delete type=0 #33
+2019/02/27-11:13:23.276 7e0 Level-0 table #39: started
+2019/02/27-11:13:23.291 7e0 Level-0 table #39: 9423 bytes OK
+2019/02/27-11:13:23.315 7e0 Delete type=0 #36
+2019/02/27-11:24:23.288 7e0 Level-0 table #41: started
+2019/02/27-11:24:23.306 7e0 Level-0 table #41: 9126 bytes OK
+2019/02/27-11:24:23.313 7e0 Delete type=0 #38
+2019/02/27-11:36:23.279 7e0 Level-0 table #43: started
+2019/02/27-11:36:23.295 7e0 Level-0 table #43: 8133 bytes OK
+2019/02/27-11:36:23.309 7e0 Delete type=0 #40
+2019/02/27-11:36:23.309 7e0 Compacting 4@0 + 1@1 files
+2019/02/27-11:36:23.332 7e0 Generated table #44@0: 612 keys, 19135 bytes
+2019/02/27-11:36:23.332 7e0 Compacted 4@0 + 1@1 files => 19135 bytes
+2019/02/27-11:36:23.343 7e0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/02/27-11:36:23.344 7e0 Delete type=2 #37
+2019/02/27-11:36:23.344 7e0 Delete type=2 #41
+2019/02/27-11:36:23.344 7e0 Delete type=2 #43
+2019/02/27-11:36:23.344 7e0 Delete type=2 #39
+2019/02/27-11:36:23.344 7e0 Delete type=2 #35
+2019/02/27-12:46:28.629 7e0 Level-0 table #46: started
+2019/02/27-12:46:28.650 7e0 Level-0 table #46: 13911 bytes OK
+2019/02/27-12:46:28.658 7e0 Delete type=0 #42
+2019/02/27-13:31:19.256 7e0 Level-0 table #48: started
+2019/02/27-13:31:19.275 7e0 Level-0 table #48: 18636 bytes OK
+2019/02/27-13:31:19.283 7e0 Delete type=0 #45
+2019/02/27-15:11:26.657 7e0 Level-0 table #50: started
+2019/02/27-15:11:26.685 7e0 Level-0 table #50: 18727 bytes OK
+2019/02/27-15:11:26.692 7e0 Delete type=0 #47

@@ -1,0 +1,1113 @@
+@charset "UTF-8";
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:active, a:hover {
+  outline-width: 0;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"], [type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.button {
+  background-color: #a762ac;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 0 0 14px;
+  padding: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 200ms ease;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #914f96;
+  text-decoration: none;
+}
+
+.close {
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 999px;
+  color: #0093d5;
+  cursor: pointer;
+  height: 19px;
+  line-height: 1;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  right: .625rem;
+  top: .5rem;
+  width: 19px;
+  z-index: 99;
+}
+
+.close::before {
+  content: '×';
+  display: inline-block;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  height: 19px;
+  margin-bottom: 5px;
+  position: relative;
+  top: -1px;
+}
+
+.iconbutton {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  height: 24px;
+  padding: 0;
+  width: 24px;
+}
+
+.iconbutton svg * {
+  fill: #999999;
+}
+
+.iconbutton--settings {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.add-institute {
+  cursor: pointer;
+  display: block;
+  margin: -1rem 0 1rem 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.logo {
+  max-height: 40px;
+  max-width: 100%;
+  width: auto;
+}
+
+.footer {
+  background-color: #edf1f7;
+}
+
+.footer-list {
+  margin: 0 -14px;
+  padding: 0;
+}
+
+.footer-list__item {
+  display: inline-block;
+  margin: 0 14px;
+}
+
+form {
+  clear: both;
+  padding: 0;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+form .button:last-of-type, fieldset .button:last-of-type {
+  margin-bottom: 0;
+}
+
+[type='text'],
+[type='password'],
+[type='date'],
+[type='datetime'],
+[type='datetime-local'],
+[type='month'],
+[type='week'],
+[type='email'],
+[type='number'],
+[type='search'],
+[type='tel'],
+[type='time'],
+[type='url'],
+[type='color'],
+textarea,
+select,
+.react-select .Select-control {
+  border: 0;
+  border-bottom: 1px solid #edf1f7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 14px;
+  padding: 7px 0;
+  width: 100%;
+}
+
+[type='text']:focus,
+[type='password']:focus,
+[type='date']:focus,
+[type='datetime']:focus,
+[type='datetime-local']:focus,
+[type='month']:focus,
+[type='week']:focus,
+[type='email']:focus,
+[type='number']:focus,
+[type='search']:focus,
+[type='tel']:focus,
+[type='time']:focus,
+[type='url']:focus,
+[type='color']:focus,
+textarea:focus,
+select:focus,
+.react-select .Select-control:focus {
+  border-bottom: 1px solid #edf1f7;
+  outline: none;
+}
+
+[type='text']:focus ~ .formcontrol__bar::after,
+[type='password']:focus ~ .formcontrol__bar::after,
+[type='date']:focus ~ .formcontrol__bar::after,
+[type='datetime']:focus ~ .formcontrol__bar::after,
+[type='datetime-local']:focus ~ .formcontrol__bar::after,
+[type='month']:focus ~ .formcontrol__bar::after,
+[type='week']:focus ~ .formcontrol__bar::after,
+[type='email']:focus ~ .formcontrol__bar::after,
+[type='number']:focus ~ .formcontrol__bar::after,
+[type='search']:focus ~ .formcontrol__bar::after,
+[type='tel']:focus ~ .formcontrol__bar::after,
+[type='time']:focus ~ .formcontrol__bar::after,
+[type='url']:focus ~ .formcontrol__bar::after,
+[type='color']:focus ~ .formcontrol__bar::after,
+textarea:focus ~ .formcontrol__bar::after,
+select:focus ~ .formcontrol__bar::after,
+.react-select .Select-control:focus ~ .formcontrol__bar::after {
+  width: 50%;
+}
+
+[type='text']:focus ~ .formcontrol__bar::before,
+[type='password']:focus ~ .formcontrol__bar::before,
+[type='date']:focus ~ .formcontrol__bar::before,
+[type='datetime']:focus ~ .formcontrol__bar::before,
+[type='datetime-local']:focus ~ .formcontrol__bar::before,
+[type='month']:focus ~ .formcontrol__bar::before,
+[type='week']:focus ~ .formcontrol__bar::before,
+[type='email']:focus ~ .formcontrol__bar::before,
+[type='number']:focus ~ .formcontrol__bar::before,
+[type='search']:focus ~ .formcontrol__bar::before,
+[type='tel']:focus ~ .formcontrol__bar::before,
+[type='time']:focus ~ .formcontrol__bar::before,
+[type='url']:focus ~ .formcontrol__bar::before,
+[type='color']:focus ~ .formcontrol__bar::before,
+textarea:focus ~ .formcontrol__bar::before,
+select:focus ~ .formcontrol__bar::before,
+.react-select .Select-control:focus ~ .formcontrol__bar::before {
+  width: 50%;
+}
+
+[type='text']:-webkit-autofill,
+[type='password']:-webkit-autofill,
+[type='date']:-webkit-autofill,
+[type='datetime']:-webkit-autofill,
+[type='datetime-local']:-webkit-autofill,
+[type='month']:-webkit-autofill,
+[type='week']:-webkit-autofill,
+[type='email']:-webkit-autofill,
+[type='number']:-webkit-autofill,
+[type='search']:-webkit-autofill,
+[type='tel']:-webkit-autofill,
+[type='time']:-webkit-autofill,
+[type='url']:-webkit-autofill,
+[type='color']:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill,
+.react-select .Select-control:-webkit-autofill {
+  background-color: #ffffff !important;
+  box-shadow: 0 0 0 1000px #ffffff inset;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #c2c8d5;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.formcontrol__bar {
+  display: block;
+  margin-top: -14px;
+  position: relative;
+  top: -1px;
+}
+
+.formcontrol__bar::before {
+  left: 50%;
+}
+
+.formcontrol__bar::after {
+  right: 50%;
+}
+
+.formcontrol__bar::after, .formcontrol__bar::before {
+  background: #0093d5;
+  bottom: 0;
+  content: '';
+  height: 2px;
+  position: absolute;
+  transition: all 300ms ease-out;
+  width: 0;
+}
+
+.form-group {
+  margin-bottom: 28px;
+  max-width: 500px;
+  position: relative;
+}
+
+.form-group::before, .form-group::after {
+  display: table;
+  content: ' ';
+}
+
+.form-group::after {
+  clear: both;
+}
+
+.form-group.fullwidth {
+  max-width: 100%;
+}
+
+.form-group.required .control-label:after {
+  content: ' *';
+}
+
+input[type=number] {
+  width: auto;
+}
+
+select {
+  max-width: 100%;
+  padding-right: 28px;
+}
+
+.ie9 select {
+  background-image: none;
+  padding-right: 7px;
+}
+
+.checkboxlist--horizontal .checkboxlist__innerlabel {
+  display: inline-block;
+  margin-right: 28px;
+}
+
+.radiolist--horizontal .radiolist__innerlabel {
+  display: inline-block;
+  margin-right: 28px;
+}
+
+.error {
+  clear: both;
+  color: #ec5840;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 1.14286rem;
+  margin-top: .3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #242d2f;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 0 10px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+header {
+  background-color: #0093d5;
+}
+
+a:not(.button) {
+  color: #0093d5;
+  text-decoration: underline;
+}
+
+a:not(.button):hover {
+  text-decoration: none;
+}
+
+p, ul, ol {
+  margin: 0 0 14px;
+}
+
+.callout {
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 1rem 28px 0;
+  padding: 1rem;
+  position: relative;
+}
+
+.callout.success {
+  background-color: #21b759;
+}
+
+.callout.alert {
+  background-color: #ec5840;
+}
+
+.callout.warning {
+  background-color: #ffae00;
+}
+
+/**
+ * React Select
+ * ============
+ * Created by Jed Watson and Joss Mackison for KeystoneJS, http://www.keystonejs.com/
+ * https://twitter.com/jedwatson https://twitter.com/jossmackison https://twitter.com/keystonejs
+ * MIT License: https://github.com/JedWatson/react-select
+*/
+@keyframes Select-animation-spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@-webkit-keyframes Select-animation-spin {
+  to {
+    -webkit-transform: rotate(1turn);
+  }
+}
+
+.Select {
+  position: relative;
+}
+
+.Select,
+.Select div,
+.Select input,
+.Select span {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.Select.is-disabled > .Select-control {
+  background-color: #f9f9f9;
+}
+
+.Select.is-disabled > .Select-control:hover {
+  box-shadow: none;
+}
+
+.Select.is-disabled .Select-arrow-zone {
+  cursor: default;
+  pointer-events: none;
+}
+
+.Select-control {
+  background-color: #fff;
+  border-color: #d9d9d9 #ccc #b3b3b3;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  color: #333;
+  cursor: default;
+  display: table;
+  border-spacing: 0;
+  border-collapse: separate;
+  height: 36px;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.Select-control:hover {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+
+.Select-control .Select-input:focus {
+  outline: none;
+}
+
+.is-searchable.is-open > .Select-control {
+  cursor: text;
+}
+
+.is-open > .Select-control {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background: #fff;
+  border-color: #b3b3b3 #ccc #d9d9d9;
+}
+
+.is-open > .Select-control .Select-arrow {
+  top: -2px;
+  border-color: transparent transparent #999;
+  border-width: 0 5px 5px;
+}
+
+.is-searchable.is-focused:not(.is-open) > .Select-control {
+  cursor: text;
+}
+
+.is-focused:not(.is-open) > .Select-control {
+  border-color: #08c #0099e6 #0099e6;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 5px -1px fade(#08c, 50%);
+}
+
+.Select-placeholder,
+.Select--single > .Select-control .Select-value {
+  bottom: 0;
+  color: #aaa;
+  left: 0;
+  line-height: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.has-value.is-clearable.Select--single > .Select-control .Select-value {
+  padding-right: 42px;
+}
+
+.has-value.Select--single > .Select-control .Select-value .Select-value-label,
+.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+  color: #333;
+}
+
+.has-value.Select--single > .Select-control .Select-value a.Select-value-label,
+.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.has-value.Select--single > .Select-control .Select-value a.Select-value-label:hover, .has-value.Select--single > .Select-control .Select-value a.Select-value-label:focus,
+.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:hover,
+.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:focus {
+  color: #08c;
+  outline: none;
+  text-decoration: underline;
+}
+
+.Select-input {
+  height: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.Select-input > input {
+  background: none transparent;
+  border: 0 none;
+  box-shadow: none;
+  cursor: default;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  outline: none;
+  line-height: 14px;
+  /* For IE 8 compatibility */
+  padding: 8px 0 12px;
+  /* For IE 8 compatibility */
+  -webkit-appearance: none;
+}
+
+.is-focused .Select-input > input {
+  cursor: text;
+}
+
+.has-value.is-pseudo-focused .Select-input {
+  opacity: 0;
+}
+
+.Select-control:not(.is-searchable) > .Select-input {
+  outline: none;
+}
+
+.Select-loading-zone {
+  cursor: pointer;
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 16px;
+}
+
+.Select-loading {
+  -webkit-animation: Select-animation-spin 400ms infinite linear;
+  -o-animation: Select-animation-spin 400ms infinite linear;
+  animation: Select-animation-spin 400ms infinite linear;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  border-right-color: #333;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.Select-clear-zone {
+  -webkit-animation: Select-animation-fadeIn 200ms;
+  -o-animation: Select-animation-fadeIn 200ms;
+  animation: Select-animation-fadeIn 200ms;
+  color: #999;
+  cursor: pointer;
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 17px;
+}
+
+.Select-clear-zone:hover {
+  color: #D0021B;
+}
+
+.Select-clear {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.Select--multi .Select-clear-zone {
+  width: 17px;
+}
+
+.Select--multi .Select-multi-value-wrapper {
+  display: inline-block;
+}
+
+.Select .Select-aria-only {
+  display: inline-block;
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+  float: left;
+}
+
+.Select-arrow-zone {
+  cursor: pointer;
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 25px;
+  padding-right: 5px;
+}
+
+.Select-arrow {
+  border-color: #999 transparent transparent;
+  border-style: solid;
+  border-width: 5px 5px 2.5px;
+  display: inline-block;
+  height: 0;
+  width: 0;
+  position: relative;
+}
+
+.is-open .Select-arrow,
+.Select-arrow-zone:hover > .Select-arrow {
+  border-top-color: #666;
+}
+
+@-webkit-keyframes Select-animation-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes Select-animation-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Select-menu-outer {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top-color: #e6e6e6;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  margin-top: -1px;
+  max-height: 200px;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 1000;
+  -webkit-overflow-scrolling: touch;
+}
+
+.Select-menu {
+  max-height: 198px;
+  overflow-y: auto;
+}
+
+.Select-option {
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #666666;
+  cursor: pointer;
+  display: block;
+  padding: 8px 10px;
+}
+
+.Select-option:last-child {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.Select-option.is-selected {
+  background-color: #f5faff;
+  color: #333;
+}
+
+.Select-option.is-focused {
+  background-color: #f2f9fc;
+  color: #333;
+}
+
+.Select-option.is-disabled {
+  color: #cccccc;
+  cursor: default;
+}
+
+.Select-noresults {
+  box-sizing: border-box;
+  color: #999999;
+  cursor: default;
+  display: block;
+  padding: 8px 10px;
+}
+
+.Select--multi .Select-input {
+  vertical-align: middle;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.Select--multi.has-value .Select-input {
+  margin-left: 5px;
+}
+
+.Select--multi .Select-value {
+  background-color: #f2f9fc;
+  border-radius: 2px;
+  border: 1px solid #c9e6f2;
+  color: #08c;
+  display: inline-block;
+  font-size: 0.9em;
+  margin-left: 5px;
+  margin-top: 5px;
+  vertical-align: top;
+}
+
+.Select--multi .Select-value-icon,
+.Select--multi .Select-value-label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Select--multi .Select-value-label {
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  cursor: default;
+  padding: 2px 5px;
+}
+
+.Select--multi a.Select-value-label {
+  color: #08c;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Select--multi a.Select-value-label:hover {
+  text-decoration: underline;
+}
+
+.Select--multi .Select-value-icon {
+  cursor: pointer;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  border-right: 1px solid #c9e6f2;
+  padding: 1px 5px 3px;
+}
+
+.Select--multi .Select-value-icon:hover, .Select--multi .Select-value-icon:focus {
+  background-color: #ddeff7;
+  color: #0077b3;
+}
+
+.Select--multi .Select-value-icon:active {
+  background-color: #c9e6f2;
+}
+
+.Select--multi.is-disabled .Select-value {
+  background-color: #fcfcfc;
+  border: 1px solid #e3e3e3;
+  color: #333;
+}
+
+.Select--multi.is-disabled .Select-value-icon {
+  cursor: not-allowed;
+  border-right: 1px solid #e3e3e3;
+}
+
+.Select--multi.is-disabled .Select-value-icon:hover, .Select--multi.is-disabled .Select-value-icon:focus, .Select--multi.is-disabled .Select-value-icon:active {
+  background-color: #fcfcfc;
+}
+
+@keyframes Select-animation-spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@-webkit-keyframes Select-animation-spin {
+  to {
+    -webkit-transform: rotate(1turn);
+  }
+}
+
+.react-select__label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.react-select__inputcontainer {
+  padding-bottom: 1px;
+}
+
+.react-select .Select {
+  margin-bottom: 14px;
+}
+
+.react-select .Select.is-focused {
+  border-bottom: 0;
+  outline: none;
+}
+
+.react-select .Select.is-focused ~ .formcontrol__bar::after {
+  width: 50%;
+}
+
+.react-select .Select.is-focused ~ .formcontrol__bar::before {
+  width: 50%;
+}
+
+.react-select .Select-control {
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.react-select .Select-placeholder,
+.react-select .Select--single > .Select-control .Select-value, .react-select .Select-input {
+  padding: 0 2px;
+}
+
+.react-select .Select-option.is-focused, .react-select .Select-option.is-selected {
+  background-color: #edf1f7;
+}
+
+.show-for-sr {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #505d63;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.contentcontainer {
+  position: relative;
+}
+
+.popup-container {
+  background: #ffffff;
+  width: 336px;
+}
+
+.popup-container header img {
+  max-width: 280px;
+}
+
+.popup-container--content {
+  border: 1px solid #c2c8d5;
+  width: 334px;
+}
+
+.popup-container--options {
+  border: 1px solid #c2c8d5;
+  margin: 20px auto;
+  width: 334px;
+}
+
+header {
+  background-color: #0093d5;
+}
+
+.padbox {
+  padding: 28px;
+}
+
+.padbox > *:last-child {
+  margin-bottom: 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #edf1f7;
+  height: 0;
+  margin: 0;
+}

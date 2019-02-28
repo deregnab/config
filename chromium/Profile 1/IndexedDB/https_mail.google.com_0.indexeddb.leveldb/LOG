@@ -1,0 +1,10 @@
+2019/02/27-13:53:41.850 6f9a Reusing MANIFEST /home/deregnab/.config/chromium/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/02/27-13:53:41.850 6f9a Recovering log #40
+2019/02/27-13:53:41.853 6f9a Reusing old log /home/deregnab/.config/chromium/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000040.log 
+2019/02/27-13:53:56.325 71d6 Compacting 2@0 + 1@1 files
+2019/02/27-13:53:56.606 71d6 Generated table #43@0: 1336 keys, 899851 bytes
+2019/02/27-13:53:56.606 71d6 Compacted 2@0 + 1@1 files => 899851 bytes
+2019/02/27-13:53:56.616 71d6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/02/27-13:53:56.616 71d6 Delete type=2 #41
+2019/02/27-13:53:56.617 71d6 Delete type=2 #38
+2019/02/27-13:53:56.617 71d6 Delete type=2 #35

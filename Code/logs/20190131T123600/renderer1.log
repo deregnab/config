@@ -1,0 +1,4 @@
+[2019-01-31 12:36:02.122] [renderer1] [warning] Unsupported write (store) access after close (key: iconThemeData)
+[2019-01-31 12:36:02.190] [renderer1] [warning] Unsupported write (store) access after close (key: allExperiments)
+[2019-01-31 12:36:02.190] [renderer1] [warning] Unsupported write (store) access after close (key: experiments.cdias.searchForAzure)
+[2019-01-31 12:36:02.204] [renderer1] [info] no standard startup: not just one text editor

@@ -1,0 +1,23 @@
+2019/02/26-16:37:12.369 5774 Reusing MANIFEST /home/deregnab/.config/chromium/Profile 1/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/02/26-16:37:12.369 5774 Recovering log #442
+2019/02/26-16:37:12.370 5774 Reusing old log /home/deregnab/.config/chromium/Profile 1/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000442.log 
+2019/02/26-16:37:26.527 1b2e Level-0 table #446: started
+2019/02/26-16:37:26.605 1b2e Level-0 table #446: 4751892 bytes OK
+2019/02/26-16:37:26.612 1b2e Delete type=0 #442
+2019/02/26-16:39:19.878 1b2e Level-0 table #448: started
+2019/02/26-16:39:19.955 1b2e Level-0 table #448: 4513598 bytes OK
+2019/02/26-16:39:19.957 1b2e Delete type=0 #445
+2019/02/26-16:39:19.958 1b2e Compacting 4@0 + 2@1 files
+2019/02/26-16:39:20.019 1b2e Generated table #449@0: 41 keys, 2299792 bytes
+2019/02/26-16:39:20.026 1b2e Generated table #450@0: 26 keys, 1985 bytes
+2019/02/26-16:39:20.026 1b2e Compacted 4@0 + 2@1 files => 2301777 bytes
+2019/02/26-16:39:20.028 1b2e compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/02/26-16:39:20.028 1b2e Delete type=2 #441
+2019/02/26-16:39:20.029 1b2e Delete type=2 #443
+2019/02/26-16:39:20.030 1b2e Delete type=2 #448
+2019/02/26-16:39:20.030 1b2e Delete type=2 #439
+2019/02/26-16:39:20.031 1b2e Delete type=2 #438
+2019/02/26-16:39:20.031 1b2e Delete type=2 #446
+2019/02/26-16:46:51.005 1b2e Level-0 table #452: started
+2019/02/26-16:46:51.086 1b2e Level-0 table #452: 4513594 bytes OK
+2019/02/26-16:46:51.088 1b2e Delete type=0 #447

@@ -1,0 +1,26 @@
+00:00:00.462696 VirtualBox GUI VM Selector Window 6.0.2 r127994 linux.amd64 (Jan 15 2019 20:58:16) release log
+00:00:00.462699 Log opened 2019-02-05T07:30:13.544357000Z
+00:00:00.462701 Build Type: release
+00:00:00.462704 OS Product: Linux
+00:00:00.462705 OS Release: 4.14.94-1-MANJARO
+00:00:00.462706 OS Version: #1 SMP PREEMPT Fri Jan 18 17:55:41 UTC 2019
+00:00:00.462730 DMI Product Name: OptiPlex 7050
+00:00:00.462739 DMI Product Version: 
+00:00:00.462792 Host RAM: 7844MB (7.6GB) total, 5650MB (5.5GB) available
+00:00:00.462797 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.462798 Process ID: 2697
+00:00:00.462799 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.462826 Qt version: 5.12.0
+00:00:00.503378 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.886929 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 640x17 x 636x1059
+00:00:00.910730 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:00.910812 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:29.969272 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:30.167799 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:30.887295 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:09:54.337025 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:09:54.441556 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:09:54.565391 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:09:54.735745 GUI: UIMediumEnumerator: Medium-enumeration finished!
+02:18:19.449635 GUI: UIMediumEnumerator: Medium-enumeration started...
+02:18:19.449820 Log rotated - Log started 2019-02-05T07:30:13.544357000Z

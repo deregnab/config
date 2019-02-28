@@ -1,0 +1,32 @@
+2018/12/19-09:25:11.534 1e95 Reusing MANIFEST /home/deregnab/.config/chromium/Profile 1/IndexedDB/https_www.apastyle.org_0.indexeddb.leveldb/MANIFEST-000001
+2018/12/19-09:25:12.150 1dea Current memtable full; waiting...
+2018/12/19-09:25:12.150 1f1a Level-0 table #5: started
+2018/12/19-09:25:12.152 1f1a Level-0 table #5: 444 bytes OK
+2018/12/19-09:25:12.154 1f1a Delete type=0 #3
+2018/12/19-09:25:12.154 1f1a Level-0 table #7: started
+2018/12/19-09:25:12.154 1f1a Level-0 table #7: 0 bytes OK
+2018/12/19-09:25:12.157 1f1a Delete type=0 #4
+2018/12/19-09:25:12.157 1f1a Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2018/12/19-09:25:12.427 1e97 Current memtable full; waiting...
+2018/12/19-09:25:12.427 1f1a Level-0 table #9: started
+2018/12/19-09:25:12.429 1f1a Level-0 table #9: 412 bytes OK
+2018/12/19-09:25:12.432 1f1a Delete type=0 #6
+2018/12/19-09:25:12.432 1f1a Level-0 table #11: started
+2018/12/19-09:25:12.432 1f1a Level-0 table #11: 0 bytes OK
+2018/12/19-09:25:12.433 1f1a Delete type=0 #8
+2018/12/19-09:25:12.433 1f1a Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2018/12/19-09:25:13.198 1e96 Current memtable full; waiting...
+2018/12/19-09:25:13.198 1f1a Level-0 table #13: started
+2018/12/19-09:25:13.199 1f1a Level-0 table #13: 412 bytes OK
+2018/12/19-09:25:13.201 1f1a Delete type=0 #10
+2018/12/19-09:25:13.201 1f1a Level-0 table #15: started
+2018/12/19-09:25:13.201 1f1a Level-0 table #15: 0 bytes OK
+2018/12/19-09:25:13.202 1f1a Delete type=0 #12
+2018/12/19-09:25:13.203 1f1a Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 26 : 1
+2018/12/19-09:25:13.203 1f1a Compacting 1@0 + 1@1 files
+2018/12/19-09:25:13.204 1f1a Generated table #16@0: 4 keys, 472 bytes
+2018/12/19-09:25:13.204 1f1a Compacted 1@0 + 1@1 files => 472 bytes
+2018/12/19-09:25:13.206 1f1a compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/12/19-09:25:13.206 1f1a Delete type=2 #9
+2018/12/19-09:25:13.206 1f1a Delete type=2 #13
+2018/12/19-09:25:13.206 1f1a Manual compaction at level-0 from '\x00\x03\x00\x00\x05' @ 26 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

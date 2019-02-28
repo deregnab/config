@@ -1,0 +1,39 @@
+2019/02/26-09:24:05.117 8513 Reusing MANIFEST /home/deregnab/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/02/26-09:24:05.117 8513 Recovering log #73
+2019/02/26-09:24:05.119 8513 Reusing old log /home/deregnab/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000073.log 
+2019/02/26-09:25:04.882 8745 Level-0 table #77: started
+2019/02/26-09:25:05.599 8745 Level-0 table #77: 3020527 bytes OK
+2019/02/26-09:25:05.611 8745 Delete type=0 #73
+2019/02/26-09:25:05.612 8745 Compacting 4@0 + 1@1 files
+2019/02/26-09:25:05.712 8745 Generated table #78@0: 5 keys, 179162 bytes
+2019/02/26-09:25:05.712 8745 Compacted 4@0 + 1@1 files => 179162 bytes
+2019/02/26-09:25:05.719 8745 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/02/26-09:25:05.719 8745 Delete type=2 #70
+2019/02/26-09:25:05.720 8745 Delete type=2 #74
+2019/02/26-09:25:05.721 8745 Delete type=2 #68
+2019/02/26-09:25:05.721 8745 Delete type=2 #77
+2019/02/26-09:25:05.722 8745 Delete type=2 #72
+2019/02/26-09:28:15.829 8745 Level-0 table #80: started
+2019/02/26-09:28:16.546 8745 Level-0 table #80: 3027770 bytes OK
+2019/02/26-09:28:16.553 8745 Delete type=0 #76
+2019/02/26-09:29:57.056 8745 Level-0 table #82: started
+2019/02/26-09:29:57.774 8745 Level-0 table #82: 3027683 bytes OK
+2019/02/26-09:29:57.781 8745 Delete type=0 #79
+2019/02/26-09:31:51.567 8745 Level-0 table #84: started
+2019/02/26-09:31:52.347 8745 Level-0 table #84: 3027979 bytes OK
+2019/02/26-09:31:52.363 8745 Delete type=0 #81
+2019/02/26-09:33:52.709 8745 Level-0 table #86: started
+2019/02/26-09:33:53.426 8745 Level-0 table #86: 3029476 bytes OK
+2019/02/26-09:33:53.434 8745 Delete type=0 #83
+2019/02/26-09:33:53.435 8745 Compacting 4@0 + 1@1 files
+2019/02/26-09:33:53.516 8745 Generated table #87@0: 5 keys, 179112 bytes
+2019/02/26-09:33:53.516 8745 Compacted 4@0 + 1@1 files => 179112 bytes
+2019/02/26-09:33:53.523 8745 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/02/26-09:33:53.523 8745 Delete type=2 #80
+2019/02/26-09:33:53.524 8745 Delete type=2 #84
+2019/02/26-09:33:53.525 8745 Delete type=2 #78
+2019/02/26-09:33:53.525 8745 Delete type=2 #86
+2019/02/26-09:33:53.526 8745 Delete type=2 #82
+2019/02/26-09:37:34.526 8745 Level-0 table #89: started
+2019/02/26-09:37:35.242 8745 Level-0 table #89: 3015652 bytes OK
+2019/02/26-09:37:35.250 8745 Delete type=0 #85

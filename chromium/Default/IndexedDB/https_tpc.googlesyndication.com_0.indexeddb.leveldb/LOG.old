@@ -1,1 +1,3 @@
-2018/09/19-09:34:59.286 7512 Reusing MANIFEST /home/deregnab/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/09/27-10:32:29.666 8350 Reusing MANIFEST /home/deregnab/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/09/27-10:32:29.666 8350 Recovering log #3
+2018/09/27-10:32:29.666 8350 Reusing old log /home/deregnab/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/000003.log 

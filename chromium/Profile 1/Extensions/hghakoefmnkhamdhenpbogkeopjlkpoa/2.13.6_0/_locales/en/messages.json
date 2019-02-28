@@ -1,0 +1,18 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Get easy access to e-resources provided by your Library directly from your browser."
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Library Access"
+   },
+   "betaAppName": {
+      "description": "The name of the application",
+      "message": "Library Access Beta"
+   },
+   "stagingAppName": {
+      "description": "The name of the application",
+      "message": "Library Access Staging"
+   }
+}

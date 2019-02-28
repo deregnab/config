@@ -1,3 +1,6 @@
-2018/09/21-08:53:08.859 1220 Reusing MANIFEST /home/deregnab/.config/chromium/Default/IndexedDB/chrome-extension_eggkanocgddhmamlbiijnphhppkpkmkl_0.indexeddb.leveldb/MANIFEST-000001
-2018/09/21-08:53:08.860 1220 Recovering log #4
-2018/09/21-08:53:08.872 1220 Reusing old log /home/deregnab/.config/chromium/Default/IndexedDB/chrome-extension_eggkanocgddhmamlbiijnphhppkpkmkl_0.indexeddb.leveldb/000004.log 
+2018/10/03-09:07:38.217 26412 Reusing MANIFEST /home/deregnab/.config/chromium/Default/IndexedDB/chrome-extension_eggkanocgddhmamlbiijnphhppkpkmkl_0.indexeddb.leveldb/MANIFEST-000001
+2018/10/03-09:07:38.218 26412 Recovering log #13
+2018/10/03-09:07:38.220 26412 Reusing old log /home/deregnab/.config/chromium/Default/IndexedDB/chrome-extension_eggkanocgddhmamlbiijnphhppkpkmkl_0.indexeddb.leveldb/000013.log 
+2018/10/03-09:28:40.816 15547 Level-0 table #19: started
+2018/10/03-09:28:40.834 15547 Level-0 table #19: 1613403 bytes OK
+2018/10/03-09:28:40.839 15547 Delete type=0 #13

@@ -1,0 +1,18 @@
+2019/01/10-12:18:47.322 5c7e Reusing MANIFEST /home/deregnab/.config/chromium/Profile 1/IndexedDB/https_www.smogon.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/01/10-12:18:47.322 5c7e Recovering log #163
+2019/01/10-12:18:47.322 5c7e Reusing old log /home/deregnab/.config/chromium/Profile 1/IndexedDB/https_www.smogon.com_0.indexeddb.leveldb/000163.log 
+2019/01/10-12:18:48.575 5c7e Current memtable full; waiting...
+2019/01/10-12:18:48.575 218f Level-0 table #168: started
+2019/01/10-12:18:48.576 218f Level-0 table #168: 408 bytes OK
+2019/01/10-12:18:48.578 218f Delete type=0 #163
+2019/01/10-12:18:48.578 218f Level-0 table #170: started
+2019/01/10-12:18:48.578 218f Level-0 table #170: 0 bytes OK
+2019/01/10-12:18:48.580 218f Delete type=0 #167
+2019/01/10-12:18:48.580 218f Manual compaction at level-0 from '\x00\x1e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1f\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1e\x00\x00\x05' @ 299 : 1
+2019/01/10-12:18:48.580 218f Compacting 1@0 + 1@1 files
+2019/01/10-12:18:48.582 218f Generated table #171@0: 33 keys, 1233 bytes
+2019/01/10-12:18:48.582 218f Compacted 1@0 + 1@1 files => 1233 bytes
+2019/01/10-12:18:48.583 218f compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/01/10-12:18:48.584 218f Delete type=2 #165
+2019/01/10-12:18:48.584 218f Delete type=2 #168
+2019/01/10-12:18:48.584 218f Manual compaction at level-0 from '\x00\x1e\x00\x00\x05' @ 299 : 1 .. '\x00\x1f\x00\x00\x00' @ 0 : 0; will stop at (end)

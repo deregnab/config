@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" class="background-transparent">
+<head>
+    <meta charset="UTF-8">
+    <link href="components/vendor.css" rel="stylesheet">
+    <link href="components/angular-csp.css" rel="stylesheet">
+    <link href="related-frame.css" rel="stylesheet">
+    <title>Brancher</title>
+</head>
+<body class="background-transparent" ng-cloak ng-app="related">
+<md-content id="related-nodes" class="md-whiteframe-3dp is-animated" ng-show="!!nodes.length">
+    <div id="related-nodes__title" class="md-caption">Related</div>
+    <div style="display: flex;">
+        <tn-node ng-repeat="node in nodes track by node.data.key"
+                 node="node"
+                 open-url="clickNode(key)"></tn-node>
+    </div>
+</md-content>
+<script src="vendor.related.js" type="text/javascript"></script>
+<script src="related.js" type="text/javascript"></script>
+</body>
+</html>

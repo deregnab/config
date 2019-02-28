@@ -1,0 +1,28 @@
+body
+{
+	background:#2d3639;
+	color:#ddd;
+	font-size:13px;
+	line-height:150%;
+	padding:10px;
+	margin:0;
+}
+
+img
+{
+	text-align:center;
+	margin:0 auto;
+	display:block;
+}
+
+.html-tag
+{
+	color:#aaa;
+}
+
+.text,
+.html-attribute-value,
+.html-attribute-name
+{
+	color:#fff;
+}

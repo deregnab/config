@@ -1,0 +1,57 @@
+2019/01/30-12:06:26.964 3d2f Reusing MANIFEST /home/deregnab/.config/chromium/Profile 1/IndexedDB/https_game258873.konggames.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/01/30-12:06:26.964 3d2f Recovering log #94
+2019/01/30-12:06:26.966 3d2f Reusing old log /home/deregnab/.config/chromium/Profile 1/IndexedDB/https_game258873.konggames.com_0.indexeddb.leveldb/000094.log 
+2019/01/30-12:06:26.967 3d2f Delete type=2 #93
+2019/01/30-12:06:26.967 3d2f Delete type=2 #95
+2019/01/30-12:07:40.682 4ab3 Level-0 table #99: started
+2019/01/30-12:07:40.720 4ab3 Level-0 table #99: 2136791 bytes OK
+2019/01/30-12:07:40.725 4ab3 Delete type=0 #94
+2019/01/30-12:07:42.820 4ab3 Compacting 1@1 + 1@2 files
+2019/01/30-12:07:42.829 4ab3 Generated table #100@1: 86 keys, 7537 bytes
+2019/01/30-12:07:42.829 4ab3 Compacted 1@1 + 1@2 files => 7537 bytes
+2019/01/30-12:07:42.833 4ab3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2019/01/30-12:07:42.834 4ab3 Delete type=2 #96
+2019/01/30-12:07:42.834 4ab3 Delete type=2 #99
+2019/01/30-12:08:21.496 4ab3 Level-0 table #102: started
+2019/01/30-12:08:21.536 4ab3 Level-0 table #102: 2081335 bytes OK
+2019/01/30-12:08:21.542 4ab3 Delete type=0 #98
+2019/01/30-12:08:22.960 4ab3 Compacting 1@1 + 1@2 files
+2019/01/30-12:08:22.965 4ab3 Generated table #103@1: 86 keys, 7670 bytes
+2019/01/30-12:08:22.965 4ab3 Compacted 1@1 + 1@2 files => 7670 bytes
+2019/01/30-12:08:22.968 4ab3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2019/01/30-12:08:22.968 4ab3 Delete type=2 #102
+2019/01/30-12:08:22.968 4ab3 Delete type=2 #100
+2019/01/30-12:09:01.979 4ab3 Level-0 table #105: started
+2019/01/30-12:09:02.017 4ab3 Level-0 table #105: 2101064 bytes OK
+2019/01/30-12:09:02.022 4ab3 Delete type=0 #101
+2019/01/30-12:09:03.445 4ab3 Compacting 1@1 + 1@2 files
+2019/01/30-12:09:03.457 4ab3 Generated table #106@1: 86 keys, 7659 bytes
+2019/01/30-12:09:03.457 4ab3 Compacted 1@1 + 1@2 files => 7659 bytes
+2019/01/30-12:09:03.458 4ab3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2019/01/30-12:09:03.459 4ab3 Delete type=2 #105
+2019/01/30-12:09:03.459 4ab3 Delete type=2 #103
+2019/01/30-12:09:43.759 4ab3 Level-0 table #108: started
+2019/01/30-12:09:43.798 4ab3 Level-0 table #108: 2102612 bytes OK
+2019/01/30-12:09:43.803 4ab3 Delete type=0 #104
+2019/01/30-12:09:45.452 4ab3 Compacting 1@1 + 1@2 files
+2019/01/30-12:09:45.463 4ab3 Generated table #109@1: 86 keys, 7756 bytes
+2019/01/30-12:09:45.464 4ab3 Compacted 1@1 + 1@2 files => 7756 bytes
+2019/01/30-12:09:45.466 4ab3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2019/01/30-12:10:26.465 4ab3 Level-0 table #111: started
+2019/01/30-12:10:26.507 4ab3 Level-0 table #111: 2102469 bytes OK
+2019/01/30-12:10:26.509 4ab3 Delete type=2 #106
+2019/01/30-12:10:26.509 4ab3 Delete type=0 #107
+2019/01/30-12:10:26.510 4ab3 Delete type=2 #108
+2019/01/30-12:10:28.240 4ab3 Compacting 1@1 + 1@2 files
+2019/01/30-12:10:28.247 4ab3 Generated table #112@1: 86 keys, 7791 bytes
+2019/01/30-12:10:28.247 4ab3 Compacted 1@1 + 1@2 files => 7791 bytes
+2019/01/30-12:10:28.249 4ab3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2019/01/30-12:10:28.249 4ab3 Delete type=2 #111
+2019/01/30-12:10:28.250 4ab3 Delete type=2 #109
+2019/01/30-12:11:06.460 4ab3 Level-0 table #114: started
+2019/01/30-12:11:06.503 4ab3 Level-0 table #114: 2118523 bytes OK
+2019/01/30-12:11:06.507 4ab3 Delete type=0 #110
+2019/01/30-12:11:08.031 4ab3 Compacting 1@1 + 1@2 files
+2019/01/30-12:11:08.037 4ab3 Generated table #115@1: 86 keys, 7856 bytes
+2019/01/30-12:11:08.037 4ab3 Compacted 1@1 + 1@2 files => 7856 bytes
+2019/01/30-12:11:08.039 4ab3 compacted to: files[ 0 0 1 0 0 0 0 ]

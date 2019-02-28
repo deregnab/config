@@ -1,0 +1,696 @@
+ERROR: ld.so: object '/home/deregnab/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/deregnab/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+Setting breakpad minidump AppID = 437920
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198099392955 [API loaded no]
+ERROR: ld.so: object '/home/deregnab/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/deregnab/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Setting maxVSyncInterval to 4
+Renderer: Mesa DRI Intel(R) HD Graphics 630 (Kaby Lake GT2) x86/MMX/SSE2
+Vendor:   Intel Open Source Technology Center
+Version:  4.5 (Core Profile) Mesa 18.2.5
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_APPLE_object_purgeable GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced
+ GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sa
+mpler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_
+to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL
+_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_IBM_multimode_draw_arrays GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_cond
+itional_render GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 165869408
+AudioManager: Using PulseAudio: Default Output Device
+Begin MonoManager ReloadAssembly
+Platform assembly: /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/UnityEngine.dll (this message is harmless)
+Loading /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/UnityEngine.dll into Unity Child Domain
+Platform assembly: /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/Assembly-CSharp.dll (this message is harmless)
+Loading /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/UnityEngine.UI.dll (this message is harmless)
+Loading /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/UnityEngine.Networking.dll (this message is harmless)
+Loading /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/DOTween.dll (this message is harmless)
+Loading /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/DOTween.dll into Unity Child Domain
+Platform assembly: /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/DOTween43.dll (this message is harmless)
+Loading /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/DOTween43.dll into Unity Child Domain
+Platform assembly: /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/DOTween46.dll (this message is harmless)
+Loading /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/DOTween46.dll into Unity Child Domain
+Platform assembly: /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/DOTween50.dll (this message is harmless)
+Loading /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/DOTween50.dll into Unity Child Domain
+- Completed reload, in  0.034 seconds
+Platform assembly: /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/System.Core.dll (this message is harmless)
+Platform assembly: /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/System.dll (this message is harmless)
+OnLevelWasLoaded was found on DOTweenComponent
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 382)
+
+OnLevelWasLoaded was found on SceneManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 382)
+
+Default vsync count 0
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+Using libudev for joystick management
+
+
+Importing game controller configs
+Found /dev/input/event20
+Mapping raw axis 0 to 0
+Mapping raw axis 1 to 1
+Mapping raw axis 2 to 2
+Mapping raw axis 3 to 3
+Mapping raw axis 4 to 4
+Mapping raw axis 5 to 5
+Sony Interactive Entertainment Wireless Controller: Mapping b0.0 to b0
+Sony Interactive Entertainment Wireless Controller: Mapping b1.0 to b1
+Sony Interactive Entertainment Wireless Controller: Mapping b8.0 to b6
+Sony Interactive Entertainment Wireless Controller: Mapping h0.4 to a7
+Sony Interactive Entertainment Wireless Controller: Mapping h0.8 to a6
+Sony Interactive Entertainment Wireless Controller: Mapping h0.2 to a6
+Sony Interactive Entertainment Wireless Controller: Mapping h0.1 to a7
+Sony Interactive Entertainment Wireless Controller: Mapping b10.0 to b8
+Sony Interactive Entertainment Wireless Controller: Mapping b4.0 to b4
+Sony Interactive Entertainment Wireless Controller: Mapping b11.0 to b9
+Sony Interactive Entertainment Wireless Controller: Mapping a2.0 to a2
+Sony Interactive Entertainment Wireless Controller: Mapping a0.0 to a0
+Sony Interactive Entertainment Wireless Controller: Mapping a1.0 to a1
+Sony Interactive Entertainment Wireless Controller: Mapping b5.0 to b5
+Sony Interactive Entertainment Wireless Controller: Mapping b12.0 to b10
+Sony Interactive Entertainment Wireless Controller: Mapping a5.0 to a5
+Sony Interactive Entertainment Wireless Controller: Mapping a3.0 to a3
+Sony Interactive Entertainment Wireless Controller: Mapping a4.0 to a4
+Sony Interactive Entertainment Wireless Controller: Mapping b9.0 to b7
+Sony Interactive Entertainment Wireless Controller: Mapping b3.0 to b2
+Sony Interactive Entertainment Wireless Controller: Mapping b2.0 to b3
+Assigning joystick 1
+Found /dev/input/event21
+Mapping raw axis 0 to 0
+Mapping raw axis 1 to 1
+Mapping raw axis 2 to 2
+Mapping raw axis 3 to 3
+Mapping raw axis 4 to 4
+Mapping raw axis 5 to 5
+Microsoft X-Box 360 pad: Mapping b0.0 to b0
+Microsoft X-Box 360 pad: Mapping b1.0 to b1
+Microsoft X-Box 360 pad: Mapping b6.0 to b6
+Microsoft X-Box 360 pad: Mapping h0.4 to a7
+Microsoft X-Box 360 pad: Mapping h0.8 to a6
+Microsoft X-Box 360 pad: Mapping h0.2 to a6
+Microsoft X-Box 360 pad: Mapping h0.1 to a7
+Microsoft X-Box 360 pad: Mapping b8.0 to b8
+Microsoft X-Box 360 pad: Mapping b4.0 to b4
+Microsoft X-Box 360 pad: Mapping b9.0 to b9
+Microsoft X-Box 360 pad: Mapping a2.0 to a2
+Microsoft X-Box 360 pad: Mapping a0.0 to a0
+Microsoft X-Box 360 pad: Mapping a1.0 to a1
+Microsoft X-Box 360 pad: Mapping b5.0 to b5
+Microsoft X-Box 360 pad: Mapping b10.0 to b10
+Microsoft X-Box 360 pad: Mapping a5.0 to a5
+Microsoft X-Box 360 pad: Mapping a3.0 to a3
+Microsoft X-Box 360 pad: Mapping a4.0 to a4
+Microsoft X-Box 360 pad: Mapping b7.0 to b7
+Microsoft X-Box 360 pad: Mapping b2.0 to b2
+Microsoft X-Box 360 pad: Mapping b3.0 to b3
+Assigning joystick 2
+Duplicate configuration for /dev/input/event21, skipping
+UnloadTime: 2.038000 ms
+Changing real window size to 956 x 1043
+Changing real window size to 956 x 1043
+Changing real window size to 1920 x 1080
+Changing real window size to 1920 x 1080
+Changing real window size to 1920 x 1080
+!!!!!! - THIS BUILD IS IN RELEASE MODE - !!!!!!
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.334000 ms
+Platform assembly: /home/deregnab/.local/share/Steam/steamapps/common/Tricky Towers/TrickyTowers_Data/Managed/System.Xml.dll (this message is harmless)
+[APP] explanations initialised
+[APP] Trophies initialised
+[APP] Leaderboards initialised
+[APP] User manager initialised
+[APP] Net command initialised
+[APP] prewarm leaderboard initialised
+[APP] _AttachDevice(): Generic Controller
+[APP] _AttachDevice(): Generic Controller
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+
+Selecting FBConfig
+GLX_FBCONFIG_ID=184
+GLX_BUFFER_SIZE=32
+GLX_DOUBLEBUFFER=1
+GLX_RED_SIZE=8
+GLX_GREEN_SIZE=8
+GLX_BLUE_SIZE=8
+GLX_ALPHA_SIZE=8
+GLX_DEPTH_SIZE=24
+GLX_STENCIL_SIZE=8
+GLX_SAMPLES_ARB=4
+GLX_SAMPLE_BUFFERS_ARB=1
+GLX_STEREO=0
+GLX_CONFIG_CAVEAT=NONE
+
+requesting fullscreen 1920 x 1080 at 60 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+Changing real window size to 0 x 0
+Changing real window size to 1920 x 1080
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 27051.
+Total: 15.798000 ms (FindLiveObjects: 0.889000 ms CreateObjectMapping: 1.107000 ms MarkObjects: 13.755000 ms  DeleteObjects: 0.047000 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.150000 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 27194.
+Total: 26.419001 ms (FindLiveObjects: 1.890000 ms CreateObjectMapping: 1.346000 ms MarkObjects: 23.076000 ms  DeleteObjects: 0.106000 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: caaa2b40 -> priority: 1 
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=APPLICATION&ea=GAME_START&sc=start&ul=en&sr=1920x1080
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+No analytics to send!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.890000 ms
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 27749.
+Total: 32.841000 ms (FindLiveObjects: 2.221000 ms CreateObjectMapping: 3.486000 ms MarkObjects: 26.919001 ms  DeleteObjects: 0.213000 ms)
+
+No analytics to send!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.445000 ms
+[APP] _AttachDevice(): Generic Controller
+[APP] _AttachDevice(): Generic Controller
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 29869.
+Total: 32.332001 ms (FindLiveObjects: 2.405000 ms CreateObjectMapping: 2.640000 ms MarkObjects: 27.049000 ms  DeleteObjects: 0.238000 ms)
+
+No analytics to send!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 12.700000 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 27750.
+Total: 14.427000 ms (FindLiveObjects: 1.301000 ms CreateObjectMapping: 1.876000 ms MarkObjects: 11.188001 ms  DeleteObjects: 0.062000 ms)
+
+No analytics to send!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.436000 ms
+[APP] _AttachDevice(): Generic Controller
+[APP] _AttachDevice(): Generic Controller
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 29870.
+Total: 33.844002 ms (FindLiveObjects: 2.207000 ms CreateObjectMapping: 2.262000 ms MarkObjects: 29.061001 ms  DeleteObjects: 0.313000 ms)
+
+No analytics to send!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.273000 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 27745.
+Total: 32.698002 ms (FindLiveObjects: 2.299000 ms CreateObjectMapping: 2.641000 ms MarkObjects: 27.584000 ms  DeleteObjects: 0.173000 ms)
+
+No analytics to send!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.899000 ms
+[APP] _AttachDevice(): Generic Controller
+[APP] _AttachDevice(): Generic Controller
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 29870.
+Total: 33.451000 ms (FindLiveObjects: 2.998000 ms CreateObjectMapping: 1.830000 ms MarkObjects: 28.333000 ms  DeleteObjects: 0.288000 ms)
+
+Sending analytics to http://www.google-analytics.com/batch: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=WIZARD&ea=SELECT&el=PIGGY
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=WIZARD&ea=SELECT&el=WITCH
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.257000 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 27572.
+Total: 32.660999 ms (FindLiveObjects: 2.950000 ms CreateObjectMapping: 2.332000 ms MarkObjects: 27.222000 ms  DeleteObjects: 0.155000 ms)
+
+_gameSetup.gameTypeFlowModel: SUPER
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+No analytics to send!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.816000 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 27063.
+Total: 34.474998 ms (FindLiveObjects: 2.725000 ms CreateObjectMapping: 4.146000 ms MarkObjects: 27.549000 ms  DeleteObjects: 0.054000 ms)
+
+levelId: SURVIVAL_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: False
+waveNumber: 2
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: SURVIVAL_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 2
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=SURVIVAL_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.695000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 24788.
+Total: 15.879000 ms (FindLiveObjects: 1.088000 ms CreateObjectMapping: 1.050000 ms MarkObjects: 13.707000 ms  DeleteObjects: 0.032000 ms)
+
+levelId: RACE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: False
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: RACE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=SURVIVAL_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.391000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 23628.
+Total: 22.115999 ms (FindLiveObjects: 1.106000 ms CreateObjectMapping: 1.243000 ms MarkObjects: 19.719999 ms  DeleteObjects: 0.045000 ms)
+
+levelId: PUZZLE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: PUZZLE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=RACE_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.547000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 23640.
+Total: 19.964001 ms (FindLiveObjects: 1.083000 ms CreateObjectMapping: 1.215000 ms MarkObjects: 17.556000 ms  DeleteObjects: 0.110000 ms)
+
+_gameStats.bubblesStabilized.value++ BRICK_Z 537.3624
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Got value 1.00 on unmapped axis 6
+Got value 0.00 on unmapped axis 6
+levelId: RACE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: False
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: RACE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=PUZZLE_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.773000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 23556.
+Total: 19.432001 ms (FindLiveObjects: 1.321000 ms CreateObjectMapping: 1.654000 ms MarkObjects: 16.427999 ms  DeleteObjects: 0.028000 ms)
+
+levelId: SURVIVAL_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: False
+waveNumber: 1
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: SURVIVAL_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 1
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=RACE_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.555000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 23139.
+Total: 16.017000 ms (FindLiveObjects: 1.289000 ms CreateObjectMapping: 1.390000 ms MarkObjects: 13.304000 ms  DeleteObjects: 0.033000 ms)
+
+levelId: RACE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: False
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: RACE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=SURVIVAL_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.849000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 23140.
+Total: 18.129000 ms (FindLiveObjects: 0.999000 ms CreateObjectMapping: 0.989000 ms MarkObjects: 15.804000 ms  DeleteObjects: 0.335000 ms)
+
+levelId: PUZZLE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: PUZZLE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DOTWEEN :: An error inside a tween callback was silently taken care of > 
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=RACE_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.524000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 23663.
+Total: 40.076000 ms (FindLiveObjects: 2.134000 ms CreateObjectMapping: 2.080000 ms MarkObjects: 35.732998 ms  DeleteObjects: 0.126000 ms)
+
+_gameSetup.gameTypeFlowModel: SUPER
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+No analytics to send!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.046000 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 23151.
+Total: 44.229000 ms (FindLiveObjects: 2.135000 ms CreateObjectMapping: 4.489000 ms MarkObjects: 37.514000 ms  DeleteObjects: 0.090000 ms)
+
+levelId: PUZZLE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: PUZZLE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=PUZZLE_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.218000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 23152.
+Total: 38.010998 ms (FindLiveObjects: 1.599000 ms CreateObjectMapping: 2.264000 ms MarkObjects: 34.070999 ms  DeleteObjects: 0.076000 ms)
+
+levelId: RACE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: False
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: RACE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=PUZZLE_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.008000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 23150.
+Total: 21.793001 ms (FindLiveObjects: 1.566000 ms CreateObjectMapping: 1.349000 ms MarkObjects: 18.851002 ms  DeleteObjects: 0.027000 ms)
+
+levelId: SURVIVAL_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: False
+waveNumber: 2
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: SURVIVAL_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 2
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=RACE_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.317000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 23150.
+Total: 31.590998 ms (FindLiveObjects: 1.131000 ms CreateObjectMapping: 0.946000 ms MarkObjects: 29.472000 ms  DeleteObjects: 0.040000 ms)
+
+_gameStats.bubblesStabilized.value++ BRICK_O 1699.781
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: RACE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: False
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: RACE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=SURVIVAL_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.992000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 22648.
+Total: 30.833000 ms (FindLiveObjects: 1.183000 ms CreateObjectMapping: 1.418000 ms MarkObjects: 28.186001 ms  DeleteObjects: 0.045000 ms)
+
+levelId: PUZZLE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: PUZZLE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=RACE_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.815000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 22652.
+Total: 44.342999 ms (FindLiveObjects: 1.474000 ms CreateObjectMapping: 2.234000 ms MarkObjects: 40.577999 ms  DeleteObjects: 0.055000 ms)
+
+levelId: RACE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: False
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: RACE_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 0
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=PUZZLE_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.492000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 22413.
+Total: 23.320000 ms (FindLiveObjects: 0.972000 ms CreateObjectMapping: 0.962000 ms MarkObjects: 21.338999 ms  DeleteObjects: 0.046000 ms)
+
+levelId: SURVIVAL_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: False
+waveNumber: 3
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+levelId: SURVIVAL_PRO
+levelType: MULTIPLAYER_LOCAL
+finished: True
+waveNumber: 3
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DOTWEEN :: An error inside a tween callback was silently taken care of > 
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=LOCAL_MULTIPLAYER&ea=RACE_PRO&el=2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.331000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 22137.
+Total: 35.976997 ms (FindLiveObjects: 2.159000 ms CreateObjectMapping: 1.244000 ms MarkObjects: 32.524002 ms  DeleteObjects: 0.048000 ms)
+
+Sending analytics to http://www.google-analytics.com/collect: 
+v=1&t=event&tid=UA-76677029-1&cid=59626646-3b68-4c9e-944d-006b01dcfcf5&av=01.81&an=Tricky%20Towers%20STEAM&ec=APPLICATION&ea=GAME_END&sc=end&ul=en&sr=1920x1080
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+No analytics to send!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

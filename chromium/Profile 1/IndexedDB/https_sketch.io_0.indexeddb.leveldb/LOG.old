@@ -1,0 +1,9 @@
+2018/12/13-08:22:57.758 cfe Reusing MANIFEST /home/deregnab/.config/chromium/Profile 1/IndexedDB/https_sketch.io_0.indexeddb.leveldb/MANIFEST-000001
+2018/12/13-08:22:57.886 4a3 Current memtable full; waiting...
+2018/12/13-08:22:57.886 11e2 Level-0 table #5: started
+2018/12/13-08:22:57.892 11e2 Level-0 table #5: 887 bytes OK
+2018/12/13-08:22:57.895 11e2 Delete type=0 #3
+2018/12/13-08:22:57.895 11e2 Level-0 table #7: started
+2018/12/13-08:22:57.895 11e2 Level-0 table #7: 0 bytes OK
+2018/12/13-08:22:57.897 11e2 Delete type=0 #4
+2018/12/13-08:22:57.898 11e2 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

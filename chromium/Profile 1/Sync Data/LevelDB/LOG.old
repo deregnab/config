@@ -1,0 +1,6 @@
+2019/02/27-08:24:26.637 457 Reusing MANIFEST /home/deregnab/.config/chromium/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2019/02/27-08:24:26.641 457 Recovering log #483
+2019/02/27-08:24:26.641 457 Reusing old log /home/deregnab/.config/chromium/Profile 1/Sync Data/LevelDB/000483.log 
+2019/02/27-10:43:33.537 7e0 Level-0 table #487: started
+2019/02/27-10:43:33.582 7e0 Level-0 table #487: 91556 bytes OK
+2019/02/27-10:43:33.594 7e0 Delete type=0 #483

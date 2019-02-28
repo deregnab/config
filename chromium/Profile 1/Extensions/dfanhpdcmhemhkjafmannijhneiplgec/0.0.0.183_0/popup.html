@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="components/vendor.css" rel="stylesheet">
+    <link href="components/angular-csp.css" rel="stylesheet">
+    <link href="popup.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Roboto" rel="stylesheet">
+    <title>Brancher</title>
+</head>
+<body id="popup">
+<div id="popup_body" ng-controller="PopupCtrl as popupCtrl" ng-cloak>
+
+    <div id="popup_body_ctrl">
+        <div id="popup_body_ctrl_onoff_switch">
+            <md-switch ng-model="popupCtrl.sessionEnabled"
+                       ng-model-options="::{ debounce: 500 }"
+                       ng-change="popupCtrl.sessionChange()"
+                       title="Do not create trees"
+                       id="popup_body_ctrl_onoff_switch-in">
+            </md-switch>
+
+            <md-button class="md-icon-button"
+                       style="position: absolute;top: -24px;"
+                       ng-class="{'md-accent': popupCtrl.favorite}"
+                       ng-disabled="popupCtrl.favoriteDisabled"
+                       ng-click="popupCtrl.toggleFavorite()"
+                       ga-track-event="['popup', 'favorite']">
+                <md-icon md-svg-icon="favorite"></md-icon>
+            </md-button>
+
+            <!--<div id="popup_body_ctrl_onoff_switch-in" class="container">-->
+            <!--<div data-am-toggle-switch>-->
+            <!--<span>Off</span>-->
+            <!--<input type="checkbox"-->
+            <!--id="input"-->
+            <!--ng-model="popupCtrl.sessionEnabled"-->
+            <!--ng-model-options="::{ debounce: 100 }"-->
+            <!--ng-change="popupCtrl.sessionChange()">-->
+            <!--<label for="input"></label>-->
+            <!--<span>On</span>-->
+            <!--</div>-->
+            <!--</div>-->
+
+        </div>
+
+        <div id="popup_body_ctrl_br-link">
+            <a id="popup_body_ctrl_br-link-in"
+               area-label="Open Brancher"
+               ga-track-event="['popup', 'openApp']"
+               ng-click="popupCtrl.open()">
+                BRANCHER
+            </a>
+        </div>
+    </div>
+    <div id="popup_body_tree-op" layout="row" layout-sm="column" layout-align="center center">
+        <!--last tree-->
+        <md-button class="md-raised"
+                   id="popup_body_tree-op_last-tree"
+                   ng-click="popupCtrl.clickTree()"
+                   ng-disabled="popupCtrl.clickTreeDisabled"
+                   ga-track-event="['popup', 'lastTree']">
+            LAST TREE
+        </md-button>
+
+        <!--PUBLISH-->
+        <md-button class="md-raised"
+                   id="popup_body_tree-op_publish_bt"
+                   title="Make all trees from this domain public. See: Trending"
+                   ng-click="popupCtrl.publishDomain()"
+                   ng-class="{'domain-published': popupCtrl.domainPublished}"
+                   ng-disabled="popupCtrl.publishDomainDisabled"
+                   ga-track-event="['popup', 'publishDomain']">
+            Publish Domain
+        </md-button>
+
+        <!--IGNORE-->
+        <div id="popup_body_tree-op_ignore">
+            <md-button id="popup_body_tree-op_ignore_bt"
+                       ng-click="popupCtrl.ignoreDomain()"
+                       ng-class="{'domain-ignored': popupCtrl.domainIgnored}"
+                       ng-disabled="popupCtrl.ignoreDomainDisabled"
+                       ga-track-event="['popup', 'ignoreDomain']">
+                Ignore Domain
+            </md-button>
+        </div>
+    </div>
+</div>
+<script src="vendor.popup.js" type="text/javascript"></script>
+<script src="popup.js" type="text/javascript"></script>
+</body>
+</html>

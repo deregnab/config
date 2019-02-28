@@ -1,5 +1,5 @@
 {
-   "checksum": "96a6fef2413190e0e1ae414886cd0344",
+   "checksum": "0d01ad1fe53454795a119ed90375e647",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -68,11 +68,8 @@
          }, {
             "date_added": "13109242603142409",
             "id": "15",
-            "meta_info": {
-               "last_visited_desktop": "13144408001629260"
-            },
             "name": "Tryit Editor v3.0",
-            "sync_transaction_version": "16",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "http://www.w3schools.com/js/tryit.asp?filename=tryjs_function_return"
          }, {
@@ -393,23 +390,18 @@
          }, {
             "date_added": "13121275776201998",
             "id": "62",
-            "meta_info": {
-               "last_visited": "13180520971408251",
-               "last_visited_desktop": "13139668686508973"
-            },
             "name": "tpgraphe1.pdf",
-            "sync_transaction_version": "1",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "http://www.fil.univ-lille1.fr/~lemairef/ARO//tp/tpgraphe1.pdf"
          }, {
             "date_added": "13124393494816742",
             "id": "63",
             "meta_info": {
-               "last_visited": "13180520991325647",
-               "last_visited_desktop": "13181727804940314"
+               "last_visited": "13182951365264185"
             },
             "name": "Licence et Master - Portail pédagogique",
-            "sync_transaction_version": "21",
+            "sync_transaction_version": "93",
             "type": "url",
             "url": "http://www.fil.univ-lille1.fr/portail/?=undefined&label=Portail%20p%C3%A9dagogique"
          }, {
@@ -464,11 +456,8 @@
          }, {
             "date_added": "13137672996562177",
             "id": "71",
-            "meta_info": {
-               "last_visited_desktop": "13139586847476747"
-            },
             "name": "Map Export",
-            "sync_transaction_version": "1",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "http://openlayers.org/en/latest/examples/export-map.html"
          }, {
@@ -495,148 +484,115 @@
          }, {
             "date_added": "13138204272077290",
             "id": "75",
-            "meta_info": {
-               "last_visited": "13181046988929577",
-               "last_visited_desktop": "13181905309327573"
-            },
             "name": "Modifier la page ‹ FongiBase — WordPress",
-            "sync_transaction_version": "72",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "http://fongibase.adonif.fr/wp-admin/post.php?post=131&action=edit"
          }, {
             "date_added": "13138989521294674",
             "id": "76",
-            "meta_info": {
-               "last_visited_desktop": "13140627370880064"
-            },
             "name": "m",
-            "sync_transaction_version": "1",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "http://mycoblob.fr/smnf/wp-admin/post.php?post=5294&action=edit"
          }, {
             "date_added": "13139566224767725",
             "id": "77",
-            "meta_info": {
-               "last_visited": "13181046966010855",
-               "last_visited_desktop": "13144412242004949"
-            },
             "name": "Cartographie – FongiBase",
-            "sync_transaction_version": "1",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "http://fongibase.adonif.fr/cartographie/"
          }, {
             "date_added": "13139591002487684",
             "id": "78",
-            "meta_info": {
-               "last_visited_desktop": "13139591809325524"
-            },
             "name": "How to get coordinates of a user-drawn circle in Openlayers 3? - Stack Overflow",
-            "sync_transaction_version": "1",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "http://stackoverflow.com/questions/30504313/how-to-get-coordinates-of-a-user-drawn-circle-in-openlayers-3"
          }, {
             "date_added": "13139591322917521",
             "id": "79",
-            "meta_info": {
-               "last_visited_desktop": "13139591322918141"
-            },
             "name": "More control over ol.interaction.Draw, to allow e.g. square drawing by ahocevar · Pull Request #3673 · openlayers/openlayers · GitHub",
-            "sync_transaction_version": "1",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "https://github.com/openlayers/openlayers/pull/3673"
          }, {
             "date_added": "13139591813263291",
             "id": "80",
-            "meta_info": {
-               "last_visited_desktop": "13139591813264259"
-            },
             "name": "openlayers 3 - Hot can I get Circle geometry when using ol.interaction.Draw? - Stack Overflow",
-            "sync_transaction_version": "1",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "http://stackoverflow.com/questions/41985327/hot-can-i-get-circle-geometry-when-using-ol-interaction-draw"
          }, {
             "date_added": "13139592038241805",
             "id": "81",
-            "meta_info": {
-               "last_visited_desktop": "13140692373763243"
-            },
             "name": "polygon - OpenLayers: Get Coordinates of drawn features - Geographic Information Systems Stack Exchange",
-            "sync_transaction_version": "1",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "https://gis.stackexchange.com/questions/182603/openlayers-get-coordinates-of-drawn-features"
          }, {
             "date_added": "13140016515771274",
             "id": "82",
-            "meta_info": {
-               "last_visited_desktop": "13140602662919839"
-            },
             "name": "clic",
-            "sync_transaction_version": "1",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "http://openlayers.org/en/latest/examples/measure.html"
          }, {
             "date_added": "13140026168083882",
             "id": "83",
-            "meta_info": {
-               "last_visited_desktop": "13140026168084546"
-            },
             "name": "Draw Shapes",
-            "sync_transaction_version": "1",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "https://openlayers.org/en/latest/examples/draw-shapes.html"
          }, {
             "date_added": "13144407013105874",
             "id": "84",
-            "meta_info": {
-               "last_visited_desktop": "13144407013119177"
-            },
             "name": "Top 100 des meilleurs titres de rap français",
-            "sync_transaction_version": "1",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "https://www.senscritique.com/top/resultats/Les_meilleurs_titres_de_rap_francais/531666"
          }, {
             "date_added": "13181728847877149",
             "id": "86",
-            "meta_info": {
-               "last_visited_desktop": "13181736940662377"
-            },
             "name": "OAE ESUP-Portail - M2 TIIR 2018-2019 - Activité récente",
-            "sync_transaction_version": "47",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "https://oae.esup-portail.org/group/OAE-Esup/SJqpNLYdX"
          }, {
             "date_added": "13181728857276945",
             "id": "88",
-            "meta_info": {
-               "last_visited_desktop": "13181901230091496"
-            },
             "name": "Best content in SID M2 TIIR 2018-2019 | Diigo - Groups",
-            "sync_transaction_version": "63",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "https://groups.diigo.com/group/sid-m2-tiir-2018_2019"
          }, {
             "date_added": "13181747001458726",
             "id": "90",
-            "meta_info": {
-               "last_visited_desktop": "13181747001459265"
-            },
             "name": "Which ports to unblock for VPN traffic to pass-through? – Routing and Remote Access Blog",
-            "sync_transaction_version": "52",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "https://blogs.technet.microsoft.com/rrasblog/2006/06/14/which-ports-to-unblock-for-vpn-traffic-to-pass-through/"
          }, {
             "date_added": "13181816128897222",
             "id": "92",
-            "meta_info": {
-               "last_visited_desktop": "13181816128897725"
-            },
             "name": "Build and Deploy a Tomcat-War Web App on Docker - Pipelines for Applications team | Puppet",
-            "sync_transaction_version": "56",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "https://puppet.com/docs/pipelines-for-apps/team/docker-tomcat-war.html"
+         }, {
+            "date_added": "13182849550103367",
+            "id": "94",
+            "meta_info": {
+               "last_visited": "13182953377942965",
+               "last_visited_desktop": "13182942071796480"
+            },
+            "name": "Planning TIIR 2018-2019 - Google Sheets",
+            "sync_transaction_version": "94",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1vNAr4_zLq2RCwbtAy2y0p-RoLr4lbBbbYqtP5o0O80M/edit#gid=0"
          } ],
          "date_added": "13181639300425209",
-         "date_modified": "13181816128897222",
+         "date_modified": "13182951363743330",
          "id": "1",
          "name": "Bookmarks bar",
          "type": "folder"
@@ -649,16 +605,13 @@
          "name": "Other bookmarks",
          "type": "folder"
       },
-      "sync_transaction_version": "72",
+      "sync_transaction_version": "94",
       "synced": {
          "children": [ {
             "date_added": "13122998067857430",
             "id": "5",
-            "meta_info": {
-               "last_visited_desktop": "13181897166846499"
-            },
             "name": "arnaudcoj/l3s5_aro_dm",
-            "sync_transaction_version": "60",
+            "sync_transaction_version": "82",
             "type": "url",
             "url": "https://github.com/arnaudcoj/l3s5_aro_dm?files=1"
          } ],

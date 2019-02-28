@@ -1,0 +1,9 @@
+2019/02/11-14:03:40.162 7b35 Reusing MANIFEST /home/deregnab/.config/chromium/Profile 1/IndexedDB/http_meharipedia.x10host.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/02/11-14:03:42.833 7b74 Current memtable full; waiting...
+2019/02/11-14:03:42.834 7c3a Level-0 table #5: started
+2019/02/11-14:03:42.835 7c3a Level-0 table #5: 457 bytes OK
+2019/02/11-14:03:42.837 7c3a Delete type=0 #3
+2019/02/11-14:03:42.838 7c3a Level-0 table #7: started
+2019/02/11-14:03:42.838 7c3a Level-0 table #7: 0 bytes OK
+2019/02/11-14:03:42.840 7c3a Delete type=0 #4
+2019/02/11-14:03:42.840 7c3a Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,18 @@
+2019/02/25-12:14:48.576 5355 Reusing MANIFEST /home/deregnab/.config/chromium/Profile 1/IndexedDB/https_www.cisco.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/02/25-12:14:48.576 5355 Recovering log #93
+2019/02/25-12:14:48.576 5355 Reusing old log /home/deregnab/.config/chromium/Profile 1/IndexedDB/https_www.cisco.com_0.indexeddb.leveldb/000093.log 
+2019/02/25-12:14:49.448 550b Current memtable full; waiting...
+2019/02/25-12:14:49.448 1795 Level-0 table #98: started
+2019/02/25-12:14:49.451 1795 Level-0 table #98: 406 bytes OK
+2019/02/25-12:14:49.453 1795 Delete type=0 #93
+2019/02/25-12:14:49.454 1795 Level-0 table #100: started
+2019/02/25-12:14:49.454 1795 Level-0 table #100: 0 bytes OK
+2019/02/25-12:14:49.458 1795 Delete type=0 #97
+2019/02/25-12:14:49.458 1795 Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 169 : 1
+2019/02/25-12:14:49.458 1795 Compacting 1@0 + 1@1 files
+2019/02/25-12:14:49.460 1795 Generated table #101@0: 20 keys, 905 bytes
+2019/02/25-12:14:49.460 1795 Compacted 1@0 + 1@1 files => 905 bytes
+2019/02/25-12:14:49.462 1795 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/02/25-12:14:49.462 1795 Delete type=2 #98
+2019/02/25-12:14:49.462 1795 Delete type=2 #95
+2019/02/25-12:14:49.462 1795 Manual compaction at level-0 from '\x00\x11\x00\x00\x05' @ 169 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)

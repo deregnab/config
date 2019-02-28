@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "css": [ "css.css" ],
+      "matches": [ "*://*/*.json", "*://*/*.txt", "*://*/*.xml", "*://*/*.csv", "*://*/*.jpg", "*://*/*.jpeg", "*://*/*.png", "*://*/*.css", "*://*/*.js", "file:///*.json", "file:///*.txt", "file:///*.xml", "file:///*.csv", "file:///*.jpg", "file:///*.jpeg", "file:///*.png", "file:///*.css", "file:///*.js" ]
+   } ],
+   "description": "A dark theme for the following file extensions: txt, json, xml, csv, jpg, jpeg, png, css and js.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4dM1LreTjd460rgxytRdxD8nh6aDw9BIoN2SOYRfCVlX3Zl6bccIEL9npmEu9CfNOYYnJe3aMq1hvMy63MAgPDmb0bmAiKjMdUWzlagVD86HI5RfGsD0uaVPq/u6uMcI5TsXk1J+7fc+AbxxSAtz63PzUDsxIk1W4QMp/xSd0PZwt4Ij/EzO4CHhFO6AAPxJRmXq10rkb3eUpHflSydp/+mwDK8o3dsDL2yqbFedCzIutS6bQ2PRB6Kub8EGFpS2TLPVvCqv9bEC9h+HQt82GUgacXdDttsd0sYI8i9jcXDBS7sfZIqkisDFmZgEZz6Ha40H9Xgd07Vuy8UlfSACAwIDAQAB",
+   "manifest_version": 2,
+   "name": "Dark Documents",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

@@ -6,7 +6,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:hack 8
+font pango: hack 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -23,8 +23,8 @@ font pango:hack 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
-bindsym 10 exec i3-sensible-terminal
+bindsym $mod+Return exec urxvt
+bindsym 10 exec urxvt
 
 # kill focused window
 #bindsym $mod+Shift+A kill
@@ -32,6 +32,9 @@ bindsym $mod+Shift+Q kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -x 700 -y 350 -i -l 20 -w 400'
+
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
 
 # change focus
 bindsym $mod+j focus left
@@ -111,7 +114,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 # lock
-bindsym $mod+l exec i3lock -t -i /home/deregnab/Pictures/faucon.jpg --timepos="150:h-190" --datepos="150:h-150" --clock --datestr "$(date "+%A %d %b %Y")" --insidecolor=00000000 --ringcolor=00000000 --line-uses-inside --keyhlcolor=00000000 --bshlcolor=00000000 --separatorcolor=00000000 --insidevercolor=00000000 --insidewrongcolor=00000000 --ringvercolor=00000000 --ringwrongcolor=00000000 --indpos="x+280:h-70" --radius=20 --ring-width=4 --veriftext="" --wrongtext="" --verifcolor="00000000" --timecolor="ffffffff" --datecolor="ffffffff" --date-font=Hack --time-font=Hack --timesize=40 --datesize=30 --date-align 1 --time-align 1
+bindsym $mod+l exec i3lock -t -i /home/deregnab/Pictures/i3wall.jpg --timepos="150:h-190" --datepos="150:h-150" --clock --datestr "$(date "+%A %d %b %Y")" --insidecolor=00000000 --ringcolor=00000000 --line-uses-inside --keyhlcolor=00000000 --bshlcolor=00000000 --separatorcolor=00000000 --insidevercolor=00000000 --insidewrongcolor=00000000 --ringvercolor=00000000 --ringwrongcolor=00000000 --indpos="x+280:h-70" --radius=20 --ring-width=4 --veriftext="" --wrongtext="" --verifcolor="00000000" --timecolor="ffffffff" --datecolor="ffffffff" --date-font=Hack --time-font=Hack --timesize=40 --datesize=30 --date-align 1 --time-align 1
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -159,15 +162,14 @@ bindsym $mod+a exec "rofi -modi window,drun,run -show drun -sidebar-mode -termin
 
 
 # General
-exec_always --no-startup-id feh --bg-fill ~/.i3/back.png
+exec_always --no-startup-id feh --bg-fill ~/Pictures/thumb-1920-274697.jpg
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id killall redshift
 exec_always --no-startup-id redshift -l 50.6333:3.0667
-smart_borders no_gaps
-for_window [class="^.*"] border pixel 0
-for_window [title="^calendar"] floating enable move absolute position center move up 300 px
-for_window [title="^monitor"] floating enable move absolute position center move up 300 px move right 500 px
-for_window [title="^wifi_menu"] floating enable move absolute position center move up 300 px move right 600 px
+for_window [class="^.*"] border pixel 2
+for_window [title="^calendar"] floating enable move absolute position center move up 200 px
+for_window [title="^monitor"] floating enable move absolute position center move up 200 px move right 500 px
+for_window [title="^wifi_menu"] floating enable move absolute position center move up 200 px move right 600 px
 for_window [title="^sxiv .*gif"] floating enable move absolute position center move up 200 px move right 400 px focus_on_window_activation none
 # End General
 

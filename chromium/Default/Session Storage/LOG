@@ -1,3 +1,18 @@
-2018/09/21-08:53:09.501 1221 Reusing MANIFEST /home/deregnab/.config/chromium/Default/Session Storage/MANIFEST-000001
-2018/09/21-08:53:09.501 1221 Recovering log #90
-2018/09/21-08:53:09.502 1221 Reusing old log /home/deregnab/.config/chromium/Default/Session Storage/000090.log 
+2018/10/03-08:28:28.570 989 Reusing MANIFEST /home/deregnab/.config/chromium/Default/Session Storage/MANIFEST-000001
+2018/10/03-08:28:28.570 989 Recovering log #193
+2018/10/03-08:28:28.571 989 Reusing old log /home/deregnab/.config/chromium/Default/Session Storage/000193.log 
+2018/10/03-08:38:27.710 2731 Level-0 table #197: started
+2018/10/03-08:38:27.715 2731 Level-0 table #197: 19669 bytes OK
+2018/10/03-08:38:27.717 2731 Delete type=0 #193
+2018/10/03-09:08:11.504 2731 Level-0 table #199: started
+2018/10/03-09:08:11.508 2731 Level-0 table #199: 17761 bytes OK
+2018/10/03-09:08:11.510 2731 Delete type=0 #196
+2018/10/03-09:08:11.510 2731 Compacting 4@0 + 1@1 files
+2018/10/03-09:08:11.513 2731 Generated table #200@0: 2625 keys, 76207 bytes
+2018/10/03-09:08:11.513 2731 Compacted 4@0 + 1@1 files => 76207 bytes
+2018/10/03-09:08:11.517 2731 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/10/03-09:08:11.517 2731 Delete type=2 #190
+2018/10/03-09:08:11.517 2731 Delete type=2 #197
+2018/10/03-09:08:11.517 2731 Delete type=2 #194
+2018/10/03-09:08:11.517 2731 Delete type=2 #199
+2018/10/03-09:08:11.517 2731 Delete type=2 #192

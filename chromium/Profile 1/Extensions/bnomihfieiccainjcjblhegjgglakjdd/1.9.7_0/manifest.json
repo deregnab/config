@@ -1,0 +1,57 @@
+{
+   "author": "savetime",
+   "background": {
+      "persistent": false,
+      "scripts": [ "extension/js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "extension/img/128g.png",
+         "16": "extension/img/16g.png",
+         "32": "extension/img/32g.png",
+         "48": "extension/img/48g.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "ImprovedTube: optimize Youtube!"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "youtube/css/other.css", "youtube/css/night_mode.css", "youtube/css/dark_theme.css", "youtube/css/header.css", "youtube/css/video_info.css", "youtube/css/player.css", "youtube/css/player_size.css", "youtube/css/mini_player.css", "youtube/css/description.css", "youtube/css/comments.css", "youtube/css/sidebar.css", "youtube/css/footer.css" ],
+      "exclude_matches": [ "*://www.youtube.com/improvedtube", "*://www.youtube.com/tv*" ],
+      "js": [ "youtube/js/modifications.js", "youtube/js/functions.js", "youtube/js/cookie.js", "youtube/js/params.js", "youtube/js/category-settings.js", "youtube/js/category-general.js", "youtube/js/category-appearance.js", "youtube/js/category-channel.js", "youtube/js/category-playlist.js", "youtube/js/category-player.js", "youtube/js/category-shortcuts.js", "youtube/js/core.js" ],
+      "matches": [ "*://www.youtube.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "popup/js/fix.js" ],
+      "matches": [ "*://www.youtube.com/improvedtube" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "popup/css/page.css", "popup/css/list.css", "popup/css/appearance.css", "popup/css/main.css", "popup/css/dialog.css", "popup/css/header.css", "popup/css/theme_dark.css", "popup/css/classic-improvedtube.css" ],
+      "js": [ "popup/js/functions.js", "popup/js/storage.js", "popup/js/menu.js", "popup/js/themes.js", "popup/js/dialog.js", "popup/js/elements.js", "popup/js/search.js", "popup/js/header.js", "popup/js/list.js", "popup/js/core.js" ],
+      "matches": [ "*://www.youtube.com/improvedtube" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "Make YouTube wonderful&Keep It clean! YouTube Player Size Playback Quality Auto HD Speed Style Adblock Volume Playlist Channel H.264",
+   "homepage_url": "https://improvedtube.com",
+   "icons": {
+      "128": "extension/img/128.png",
+      "16": "extension/img/16.png",
+      "32": "extension/img/32.png",
+      "48": "extension/img/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCdkqLXi7Mi4b0wkmrsD1/abn/jLvqmLlOl/RFmymdvzJehXGghUMsKKbzDyDLnpKX7d2gzk6Jy7CYCRBImcDWozhFAf9bfIWNODEcfCjuAAXNmGbAxnAYLd+Tg8n7A8QEXI5b0bMEg3JvJ0cCJYQiLujY/OHYO9XeYq6d+s1DLewIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "49.0",
+   "name": "Improve YouTube! (Open-Source for YouTube)",
+   "offline_enabled": true,
+   "optional_permissions": [ "downloads", "https://www.youtube.com/" ],
+   "options_page": "popup/options.html",
+   "permissions": [ "https://www.youtube.com/", "storage", "contextMenus" ],
+   "short_name": "ImprovedTube",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.9.7"
+}

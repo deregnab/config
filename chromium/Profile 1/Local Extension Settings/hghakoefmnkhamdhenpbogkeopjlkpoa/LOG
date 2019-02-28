@@ -1,0 +1,18 @@
+2019/02/28-12:57:03.971 570 Reusing MANIFEST /home/deregnab/.config/chromium/Profile 1/Local Extension Settings/hghakoefmnkhamdhenpbogkeopjlkpoa/MANIFEST-000001
+2019/02/28-12:57:03.971 570 Recovering log #611
+2019/02/28-12:57:03.978 570 Reusing old log /home/deregnab/.config/chromium/Profile 1/Local Extension Settings/hghakoefmnkhamdhenpbogkeopjlkpoa/000611.log 
+2019/02/28-12:57:05.051 86c Level-0 table #615: started
+2019/02/28-12:57:05.307 86c Level-0 table #615: 1025838 bytes OK
+2019/02/28-12:57:05.329 86c Delete type=0 #611
+2019/02/28-12:57:06.594 86c Level-0 table #617: started
+2019/02/28-12:57:06.830 86c Level-0 table #617: 898427 bytes OK
+2019/02/28-12:57:06.874 86c Delete type=0 #614
+2019/02/28-12:57:06.876 86c Compacting 4@0 + 1@1 files
+2019/02/28-12:57:06.960 86c Generated table #618@0: 1 keys, 175520 bytes
+2019/02/28-12:57:06.960 86c Compacted 4@0 + 1@1 files => 175520 bytes
+2019/02/28-12:57:06.967 86c compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/02/28-12:57:06.967 86c Delete type=2 #610
+2019/02/28-12:57:06.967 86c Delete type=2 #615
+2019/02/28-12:57:06.967 86c Delete type=2 #617
+2019/02/28-12:57:06.967 86c Delete type=2 #612
+2019/02/28-12:57:06.967 86c Delete type=2 #608

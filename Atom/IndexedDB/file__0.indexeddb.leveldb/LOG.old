@@ -1,0 +1,45 @@
+2018/12/19-14:32:13.012 10837 Reusing MANIFEST /home/deregnab/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2018/12/19-14:32:13.012 10837 Recovering log #54
+2018/12/19-14:32:13.013 10837 Reusing old log /home/deregnab/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000054.log 
+2018/12/19-14:35:32.781 11270 Level-0 table #58: started
+2018/12/19-14:35:32.809 11270 Level-0 table #58: 3039519 bytes OK
+2018/12/19-14:35:32.810 11270 Delete type=0 #54
+2018/12/19-14:35:32.811 11270 Compacting 4@0 + 1@1 files
+2018/12/19-14:35:32.834 11270 Generated table #59@0: 5 keys, 120568 bytes
+2018/12/19-14:35:32.834 11270 Compacted 4@0 + 1@1 files => 120568 bytes
+2018/12/19-14:35:32.835 11270 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/12/19-14:35:32.835 11270 Delete type=2 #58
+2018/12/19-14:35:32.836 11270 Delete type=2 #51
+2018/12/19-14:35:32.836 11270 Delete type=2 #53
+2018/12/19-14:35:32.836 11270 Delete type=2 #55
+2018/12/19-14:35:32.836 11270 Delete type=2 #49
+2018/12/19-14:39:32.787 11270 Level-0 table #61: started
+2018/12/19-14:39:32.815 11270 Level-0 table #61: 3120535 bytes OK
+2018/12/19-14:39:32.817 11270 Delete type=0 #57
+2018/12/19-14:47:28.890 11270 Level-0 table #63: started
+2018/12/19-14:47:28.919 11270 Level-0 table #63: 3074709 bytes OK
+2018/12/19-14:47:28.921 11270 Delete type=0 #60
+2018/12/19-14:52:52.333 11270 Level-0 table #65: started
+2018/12/19-14:52:52.360 11270 Level-0 table #65: 3122986 bytes OK
+2018/12/19-14:52:52.362 11270 Delete type=0 #62
+2018/12/19-14:59:24.822 11270 Level-0 table #67: started
+2018/12/19-14:59:24.850 11270 Level-0 table #67: 3137912 bytes OK
+2018/12/19-14:59:24.852 11270 Delete type=0 #64
+2018/12/19-14:59:24.852 11270 Compacting 4@0 + 1@1 files
+2018/12/19-14:59:24.875 11270 Generated table #68@0: 5 keys, 157886 bytes
+2018/12/19-14:59:24.875 11270 Compacted 4@0 + 1@1 files => 157886 bytes
+2018/12/19-14:59:24.876 11270 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/12/19-14:59:24.876 11270 Delete type=2 #65
+2018/12/19-14:59:24.877 11270 Delete type=2 #63
+2018/12/19-14:59:24.877 11270 Delete type=2 #61
+2018/12/19-14:59:24.877 11270 Delete type=2 #67
+2018/12/19-14:59:24.878 11270 Delete type=2 #59
+2018/12/19-15:03:03.399 11270 Level-0 table #70: started
+2018/12/19-15:03:03.429 11270 Level-0 table #70: 3140314 bytes OK
+2018/12/19-15:03:03.430 11270 Delete type=0 #66
+2018/12/19-15:06:00.516 11270 Level-0 table #72: started
+2018/12/19-15:06:00.544 11270 Level-0 table #72: 3054839 bytes OK
+2018/12/19-15:06:00.545 11270 Delete type=0 #69
+2018/12/19-15:08:28.333 11270 Level-0 table #74: started
+2018/12/19-15:08:28.360 11270 Level-0 table #74: 3078295 bytes OK
+2018/12/19-15:08:28.362 11270 Delete type=0 #71

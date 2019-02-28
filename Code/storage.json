@@ -1,0 +1,32 @@
+{
+    "telemetry.machineId": "efb49a07ed30b4a0799088c4db29503eba5decdbacc332f8fa3d1a35873f2fc7",
+    "openedPathsList": {
+        "workspaces2": [
+            "file:///home/deregnab/Downloads",
+            "file:///home/deregnab/Pictures"
+        ],
+        "files2": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "/home/deregnab/Downloads",
+                "external": "file:///home/deregnab/Downloads",
+                "path": "/home/deregnab/Downloads",
+                "scheme": "file"
+            },
+            "backupPath": "/home/deregnab/.config/Code/Backups/e674a7c45463411a8396227ee909882a",
+            "uiState": {
+                "mode": 1,
+                "x": 642,
+                "y": 19,
+                "width": 636,
+                "height": 1059
+            }
+        }
+    }
+}

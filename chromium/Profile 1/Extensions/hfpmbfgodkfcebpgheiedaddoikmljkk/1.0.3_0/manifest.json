@@ -1,0 +1,23 @@
+{
+   "api_console_project_id": "199590644126",
+   "app": {
+      "launch": {
+         "web_url": "https://cloudconvert.com/"
+      },
+      "urls": [ "https://cloudconvert.com/" ]
+   },
+   "container": [ "DOMAIN_INSTALLABLE", "GOOGLE_DRIVE" ],
+   "description": "convert anything to anything",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "32": "icon_32.png",
+      "64": "icon_64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfbPqCyrYTYPkfWR7ajx1zY1rZDEGImfdgH5RYrQyAKCzE36L6nNNA4PX+knXv2Ta2KWB0dWzb5/ZhauQe5tQ7R292oAHWjBCNsDmu+c5oqBbRH8jX3eHEpTc6oj3Sg/4ZmIXbATuvN8lVV7VId2JlyeAX8/vKbzBu/IUxoTh3uwIDAQAB",
+   "manifest_version": 2,
+   "name": "CloudConvert",
+   "permissions": [ "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.3"
+}
